@@ -1,0 +1,302 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <title>2025-03-11 Arxiv papers related with quantum computing overview</title>
+        <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+        .literature-item {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-top: 0;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #eee;
+        }
+        .authors {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+        .summary {
+            color: #444;
+            text-align: justify;
+        }
+        .link {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #337ab7;
+            text-decoration: none;
+        }
+        
+        </style>
+        </head>
+        <body>
+        <h1>2025-03-11 Arxiv papers related with quantum computing overview</h1>
+        
+        <h1>Keywords: ['superconducting qubit', 'quantum error correction', 'superconducting circuit', 'surface code', 'transmon', 'quantum parity detection']</h1>
+        
+
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>When Clifford benchmarks are sufficient; estimating application performance with scalable proxy circuits</h2>
+                <div class="authors">Seth Merkel, Timothy Proctor, Samuele Ferracin, Jordan Hines, Samantha Barron, Luke C. G. Govia, David McKay</div>
+                <div class="summary">
+                摘要：基准测试的目的是确定噪声系统的输出与理想行为之间有多大的差距；对于大型量子系统来说，经典模拟变得难以处理，因此这是一个极其困难的问题。常见的方法是使用由Clifford群（例如CZ、CNOT、π和π/2门）组成的电路，这些电路可以探测量子行为，同时仍然能够有效地进行经典模拟。然而，人们担心这些电路可能会忽略影响更大希尔伯特空间的错误源。在本文中，我们证明了对于一类广泛的错误模型，这些担忧是不必要的。特别是，我们展示了，对于可以通过Pauli twirling进行噪声定制的错误模型，任何通用电路的diamond范数和保真度都能通过仅由Clifford门组成的代理电路的保真度得到很好的近似。我们讨论了在一个健壮的状态准备和测量错误方法中提取这些Clifford代理电路保真度的方法，并展示了这些方法在模拟和IBM Quantum部署的heron设备上的应用。
+                </div>
+                <a href="https://arxiv.org/abs/2503.05943" class="link">https://arxiv.org/abs/2503.05943</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>The Art of Optimizing T-Depth for Quantum Error Correction in Large-Scale Quantum Computing</h2>
+                <div class="authors">Avimita Chatterjee, Archisman Ghosh, Swaroop Ghosh</div>
+                <div class="summary">
+                
+                </div>
+                <a href="https://arxiv.org/abs/2503.06045" class="link">https://arxiv.org/abs/2503.06045</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Digital Zero-Noise Extrapolation with Quantum Circuit Unoptimization</h2>
+                <div class="authors">Elijah Pelofske, Vincent Russo</div>
+                <div class="summary">
+                摘要：量子电路去优化是一种算法，能够将一个量子电路转换为另一个使用更多门操作但保持相同单位变换的电路。我们展示了一种方法，可以通过这种方法实现数字零噪声外插（ZNE），这是一种量子误差缓解技术。通过利用量子电路去优化作为一种电路折叠形式，噪声可以被系统地放大。这一方法有两个主要优势。首先，它能够生成指数级数量的不同电路变体，这些变体随着噪声水平的增加而改变，从而通过对许多稍微不同的电路结构进行平均来减少偏差错误传播的影响，或者在量子处理器上减轻高偏差本地噪声的影响。其次，量子电路去优化在设计上抵制回原始未修改电路的简化，使得在服务器端应用电路编译器优化时使用ZNE变得可行。我们通过数值模拟评估了量子电路去优化作为ZNE噪声缩放方法的有效性，测试了两种情况：一种是具有重输出概率观察的随机量子体积电路，另一种是用于随机3-正则图上（无权）最大切割问题的QAOA电路，其中观察的是切割值。我们展示了使用量子电路去优化执行ZNE可以从噪声模拟中恢复信号。
+                </div>
+                <a href="https://arxiv.org/abs/2503.06341" class="link">https://arxiv.org/abs/2503.06341</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Distributed quantum algorithm for the dihedral hidden subgroup problem</h2>
+                <div class="authors">Pengyu Yang, Xin Zhang, Song Lin</div>
+                <div class="summary">
+                摘要：为了解决Kuperberg算法在二面体隐藏子群问题中量子资源需求过大的问题，本文提出了一种基于函数分解的分布式算法。通过将原始函数分解为多个子函数，并将其分配到多个量子节点进行并行处理，该算法显著降低了单个节点的量子电路深度和所需量子比特数。理论分析表明，当 $n\gg t$（其中 $t$ 是量子节点的数量）时，分布式版本的时间复杂度从传统算法的 $2^{O(\sqrt{n})}$ 优化为 $2^{o(\sqrt{n-t})}$。此外，我们在Qiskit平台上进行了模拟，验证了算法的准确性。与原始算法相比，分布式版本不仅减少了电路深度和噪声的影响，还提高了测量成功的概率。
+                </div>
+                <a href="https://arxiv.org/abs/2503.06478" class="link">https://arxiv.org/abs/2503.06478</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Multifunctional Nonreciprocal Quantum Device Based on Superconducting Quantum Circuit</h2>
+                <div class="authors">Yue Cai, Jie Liu, Kang-Jie Ma, Lei Tan</div>
+                <div class="summary">
+                摘要：非互易设备，如隔离器或环形器，对于量子网络中的信息路由和处理至关重要。传统的非互易设备依赖于施加偏置磁场以打破时间反转对称性和洛伦兹互易性，但这些设备通常体积大且需要强静态磁场，这使得它们在高度集成的大规模量子网络中难以实现。因此，我们设计了一种基于超导量子电路集成和可调节相互作用的多功能非互易量子设备。该设备可以通过外部磁通量控制，在双端隔离器、三端对称环形器和反对称环形器之间切换。此外，隔离器和环形器都能实现几乎完美的单向信号传输。我们相信，这种可扩展且集成度高的非互易设备为大规模量子网络的发展提供了新的见解。
+                </div>
+                <a href="https://arxiv.org/abs/2503.06544" class="link">https://arxiv.org/abs/2503.06544</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>An Accurate Efficient Analytic Model of Fidelity under Depolarizing Noise oriented to Large Scale Quantum System Design</h2>
+                <div class="authors">Pau Escofet, Santiago Rodrigo, Artur Garcia-Sáez, Eduard Alarcón, Sergi Abadal, Carmen G. Almudéver</div>
+                <div class="summary">
+                摘要：保真度是评估容易出错量子处理器上量子电路性能最宝贵且常用的指标之一。已有几种方法被提出来估计电路保真度，而无需在量子硬件上执行它，但它们经常面临可扩展性或精度方面的限制。在这项工作中，我们展示了一种全面的理论框架，用于预测量子电路在去极化噪声下的保真度。基于理论结果，我们提出了一个高效的保真度估计算法，基于设备校准数据。该方法通过模拟和在实际硬件上的执行得到了充分验证，证明了其准确性比现有的最佳替代方案更高。所提出的方法提供了一种可扩展且实用的工具，用于基准测试量子硬件、比较量子软件技术（例如编译方法）、为量子系统获得计算边界以及指导硬件设计决策，使其成为开发和评估量子计算技术的关键资源。
+                </div>
+                <a href="https://arxiv.org/abs/2503.06693" class="link">https://arxiv.org/abs/2503.06693</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Noise-Robust Estimation of Quantum Observables in Noisy Hardware</h2>
+                <div class="authors">Amin Hosseinkhani, Fedor Šimkovic, Alessio Calzona, Tianhan Liu, Adrian Auer, Inés de Vega</div>
+                <div class="summary">
+                摘要：错误缓和对于抵消量子计算中的噪声直到容错量子技术成为可行之前是至关重要的。这里，我们引入了噪声稳健估计（Noise-Robust Estimation，NRE），这是一种无需了解噪声特性的框架，通过两步后处理方法系统地减少估计偏差。在其核心，NRE利用了我们在这项工作中发现的偏差-分散关联，其中一个可测量的指标——归一化分散度——量化并帮助抑制未知残余偏差在期望值估计中的存在。为了揭示这一关联，我们利用现有的测量次数进行自助法（bootstrapping）。我们在IQM超导量子处理器上实验验证了NRE，执行了最多包含20个量子比特和240个纠缠CZ门的量子电路。我们的结果表明，NRE在不同实现设置下始终能够以接近无偏差的估计结果，同时保持可控的采样开销。这些发现确立了NRE作为一种可靠且广泛适用的用于噪声硬件量子计算的错误缓和方法
+                </div>
+                <a href="https://arxiv.org/abs/2503.06695" class="link">https://arxiv.org/abs/2503.06695</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Fabrication and Characterization of Impedance-transformed Josephson Parametric Amplifier</h2>
+                <div class="authors">Zhengyang Mei, Xiaohui Song, Xueyi Guo, Xiang Li, Yunhao Shi, Guihan Liang, Chenglin Deng, Li Li, Yang He, Dongning Zheng, Kai Xu, Heng Fan, Zhongcheng Xiang</div>
+                <div class="summary">
+                
+                </div>
+                <a href="https://arxiv.org/abs/2503.06936" class="link">https://arxiv.org/abs/2503.06936</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Experimental observation of non-Markovian quantum exceptional points</h2>
+                <div class="authors">Hao-Long Zhang, Pei-Rong Han, Fan Wu, Wen Ning, Zhen-Biao Yang, Shi-Biao Zheng</div>
+                <div class="summary">
+                摘要：”，然后在最后返回True。
+</think>
+
+摘要：开放系统的一个显著特性是异常点（EPs）的存在，其中两个或多个非厄米算子的特征向量汇合，伴随着相应特征值的收敛。到目前为止，EPs已经在从经典光学系统到全量子力学自旋-玻色子模型等多个平台上得到展示。在这些演示中，诱导非厄米性的ervoir被视为马尔可夫ian的，没有考虑其存储效应。我们这里提出第一个非马尔可夫quantum EPs的实验演示，通过将基于Josephson-junction的qubit与泄漏电磁谐振器耦合，该谐振器充当非马尔可夫ianervoir。我们通过观察qubit和伪模式的量子态演化绘制了扩展Liouvillian超算子的谱，其中编码了reservoir的存储。在Liouvillian光谱中，我们识别出二阶第二类EP和三阶EP，这些都无法在马尔可夫ian reservoir中实现。我们的结果为实验探索与非马尔可夫quantum EPs相关的奇异现象铺平了道路。
+                </div>
+                <a href="https://arxiv.org/abs/2503.06977" class="link">https://arxiv.org/abs/2503.06977</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Towards Quantifying Two-Mode Correlation Linewidths in Quantum Circuits</h2>
+                <div class="authors">Alessandro Alocco, Andrea Celotto, Luca Fasolo, Bernardo Galvano, Emanuele Palumbo, Luca Oberto, Luca Callegaro, Felice Francesco Tafuri, Patrizia Livreri, Emanuele Enrico</div>
+                <div class="summary">
+                摘要：这篇论文旨在量化旅行波参数放大器（TWPAs）中两模式关联的线宽。研究分析了数据采集和处理引起的伪像，如窗口效应和获取时间，以理解它们对这些关联线宽估计的影响。结果强调了获取参数在优化两模式关联测量以及增强设备特性以适用于量子应用中的重要性。
+                </div>
+                <a href="https://arxiv.org/abs/2503.07212" class="link">https://arxiv.org/abs/2503.07212</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Photonic Mode Description of the Jaynes-Cummings Hamiltonian States</h2>
+                <div class="authors">V. F. Maisi</div>
+                <div class="summary">
+                摘要：Jaynes-Cummings哈密顿量提供了两级系统与光子模式相互作用的基本描述。在本文中，我们通过一个光信号的传输响应得出了表达式，该表达式将混合态描述为独立的光子模式。结果，我们获得了每种模式的有效输入/输出耦合和内部损耗。这些因素决定了混合态的去相干率，并提供了一个简单的描述，即我们所称的响应信号的“可见度”及其线宽的强度。特别是，结果允许我们描述一种情况，其中相干性显著增加，而信号在响应中保持高度可见。
+                </div>
+                <a href="https://arxiv.org/abs/2503.07333" class="link">https://arxiv.org/abs/2503.07333</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Quasiparticle poisoning of superconducting qubits with active gamma irradiation</h2>
+                <div class="authors">C. P. Larson, E. Yelton, K. Dodge, K. Okubo, J. Batarekh, V. Iaia, N. A. Kurinsky, B. L. T. Plourde</div>
+                <div class="summary">
+                
+                </div>
+                <a href="https://arxiv.org/abs/2503.07354" class="link">https://arxiv.org/abs/2503.07354</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Optimal Connectivity from Idle Qubit residual coupling Cross-Talks in a Cavity Mediated Entangling Gate</h2>
+                <div class="authors">Andrea Mammola, Quentin Schaeverbeke, Matthieu M. Desjardins</div>
+                <div class="summary">
+                
+                </div>
+                <a href="https://arxiv.org/abs/2503.07455" class="link">https://arxiv.org/abs/2503.07455</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Josephson traveling-wave parametric amplifier based on low-intrinsic-loss coplanar lumped-element waveguide</h2>
+                <div class="authors">C. W. Sandbo Chang, Arjan F. Van Loo, Chih-Chiao Hung, Yu Zhou, Shuhei Tamate, Yasunobu Nakamura</div>
+                <div class="summary">
+                摘要：我们展示了一种基于低损耗共面波游波长约瑟夫森参数放大器（JTWPA）。通过使用开端式互容器和曼哈顿式连接，设备在12 GHz范围内实现了低于1 dB的插入损耗。引入带窗口的正弦调制以匹配相位，展示了平滑的阻抗过渡如何有效抑制固有的增益波纹。使用Tukey窗口调制和8%的阻抗变化，在理想匹配条件下，设备在5 GHz带宽内实现了20-23 dB的增益。在更实际的电路中，考虑到阻抗不匹配，设备在4.8 GHz带宽内保持17-20 dB的增益，同时噪声增加0.13个量子，超过标准量子限制，并且在饱和功率为-99 dBm时，在带隙频率以下具有零或负的反向增
+                </div>
+                <a href="https://arxiv.org/abs/2503.07559" class="link">https://arxiv.org/abs/2503.07559</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>On the Minimum Distances of Finite-Length Lifted Product Quantum LDPC Codes</h2>
+                <div class="authors">Nithin Raveendran, David Declercq, Bane Vasić</div>
+                <div class="summary">
+                摘要：量子误差校正对于实际实现容错量子计算至关重要，而最近提出的量子低密度奇偶校验码（QLDPC）族被认为是先进量子误差校正硬件架构和实现的主要候选者。本文专注于有限长度QLDPC码的设计准则，特别是旨在构建退化的拟循环对称提升产品（LP-QLDPC）码。我们描述了必要条件，以确保所设计的LP-QLDPC码具有严格大于最小稳定器生成器重量的最小距离，从而在量子信道上保证优异的误差校正性能。本文关注的是从属于类型-I原型类的拟循环基准代码构建的LP-QLDPC码，并将必要约束高效地表示为基准代码的行和列索引。具体来说，我们表征了确保能够构建退化LP-QLDPC码的经典拟循环基矩阵的组合约束条件。提供了最小示例和说明，以展示代码构造方法的有用性和有效性。本文中推导的行和列分区约束简化了退化LP-QLDPC码的设计，并可以整合到现有的经典和量子代码设计方法中。
+                </div>
+                <a href="https://arxiv.org/abs/2503.07567" class="link">https://arxiv.org/abs/2503.07567</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Quantum metrology of low frequency electromagnetic modes with frequency upconverters</h2>
+                <div class="authors">Stephen E. Kuenstner, Elizabeth C. van Assendelft, Saptarshi Chaudhuri, Hsiao-Mei Cho, Jason Corbin, Shawn W. Henderson, Fedja Kadribasic, Dale Li, Arran Phipps, Nicholas M. Rapidis, Maria Simanovskaia, Jyotirmai Singh, Cyndia Yu, Kent D. Irwin</div>
+                <div class="summary">
+                摘要：我们提出射频量子上转换器（RQU），并描述其在直流至甚高频电磁模式量子测度学中的应用（$\lesssim$300MHz）。RQU采用由超导环和约瑟夫森结组成的约瑟夫森干涉器，实现低频电磁模式（直流至VHF）与微波C波段模式（$\sim$ 5GHz）之间的参数相互作用，类似于腔体光机力学中电磁场与机械模式间的辐射压力相互作用。我们利用量子放大器理论分析RQU性能，并展示其能够在该频率范围内作为量子极限运算放大器。此外，它还可以使用与腔体光机力学中相同的非经典测量协议，包括回作用规避（BAE）测量、边带冷却和双模式压缩。这些协议使得直流至VHF电磁模式能够成为具有优于标准量子极限（SQL）的灵敏度的量子传感器。我们通过RQU演示了低频信号到微波C带的上转换，并展示了相位敏感增益（消除比）为46.9 dB，这是实现全BAE的必要步骤。
+                </div>
+                <a href="https://arxiv.org/abs/2210.05576" class="link">https://arxiv.org/abs/2210.05576</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Vulnerability of fault-tolerant topological quantum error correction to quantum deviations in code space</h2>
+                <div class="authors">Yuanchen Zhao, Dong E. Liu</div>
+                <div class="summary">
+                
+                </div>
+                <a href="https://arxiv.org/abs/2301.12859" class="link">https://arxiv.org/abs/2301.12859</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>The $k$-photon quantum Rabi model</h2>
+                <div class="authors">Daniel Braak</div>
+                <div class="summary">
+                摘要：广义量子拉比模型是通过将两级系统与辐射模式之间的线性耦合替换为创造和湮灭算符的非线性表达式来实现的，对应于多光子激发。每次自旋翻转涉及$k$个光子时，被称为"$k$-photon"量子拉比模型。当$k=2$时，形式上对称的哈密顿算符是厄米的，但在这里证明当$k\geq3$时哈密顿算符不再是厄米的。因此，它无法生成单位时间演化，并且是不物理的。此结果不能通过试图用有限维空间中的有限秩算符近似无界算符的数值计算得到。
+                </div>
+                <a href="https://arxiv.org/abs/2401.02370" class="link">https://arxiv.org/abs/2401.02370</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Efficient and Scalable Architectures for Multi-Level Superconducting Qubit Readout</h2>
+                <div class="authors">Chaithanya Naik Mude, Satvik Maurya, Benjamin Lienhard, Swamit Tannu</div>
+                <div class="summary">
+                摘要：实现量子计算的全部潜力需要大规模量子计算机，能够运行量子误差校正（QEC）以减轻硬件错误并维持量子数据的相干性。尽管量子计算机在二级计算子空间中操作，但许多处理器模式本质上是多能级系统。这导致偶尔泄漏到计算子空间以外的能级，复杂化了错误检测并破坏了QEC协议。此问题在超导跨过量子比特等工程量子比特设备中尤为严重，这是一种领先的容错量子计算技术。应对这一挑战需要有效的多能级量子系统读出以识别和减轻泄漏错误。我们提出了一个可扩展、高保真度的三级读出方案，将FPGA资源使用量与基线相比降低了60倍，同时将读出时间缩短了20%，从而实现了更快的泄漏检测。通过采用匹配滤波器来检测放松和激发错误模式，并整合一个模块化轻量级神经网络来纠正交叉信号错误，该协议显著降低了硬件复杂度，实现了神经网络规模的100倍减少。我们的设计支持高效、实时在现有FPGA上的实现，相比基线在读出精度上取得了6.6%的相对改进。这一创新实现了更快的泄漏缓解，增强了QEC的可靠性，加速了迈向容错量子计算的进程。
+                </div>
+                <a href="https://arxiv.org/abs/2405.08982" class="link">https://arxiv.org/abs/2405.08982</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Correlation measurement of propagating microwave photons at millikelvin</h2>
+                <div class="authors">Aarne Keränen, Qi-Ming Chen, András Gunyhó, Priyank Singh, Jian Ma, Visa Vesterinen, Joonas Govenius, Mikko Möttönen</div>
+                <div class="summary">
+                摘要：微波光子是许多有前景的量子计算平台中重要的量子信息载体。它们可以在实验中常规生成、控制和传送，表明了其在量子技术中的多种应用。然而，观察微波光子的量子统计特性仍然具有挑战性：数个微波光子的能量远小于任何室温探测器的热波动，而放大不可避免地会引入噪声。本文提出了一种纳米玻色计直接在毫开尔温度下测量光子统计特性的测量技术，克服了这一权衡。我们将这种方法应用于电路量子电动力学调节下的黑体辐射器产生的热态。我们展示了纳米玻色计对光子数量的分辨能力，并揭示了玻色-爱因斯坦分布所指示的n(n+1)-缩放法则的光子数方差。通过工程化输入场的相干和不相干部分，我们从玻色计二阶相关测量中观察到超泊松尼和泊松尼统计之间的过渡。这种技术有望在微波光子的量子力学基本测试中发挥作用，并作为一种可扩展的量子信息处理器读出解决方案。
+                </div>
+                <a href="https://arxiv.org/abs/2407.05147" class="link">https://arxiv.org/abs/2407.05147</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Stabilizer Entanglement Distillation and Efficient Fault-Tolerant Encoders</h2>
+                <div class="authors">Yu Shi, Ashlesha Patil, Saikat Guha</div>
+                <div class="summary">
+                摘要：This study advances the field of quantum computing by developing high-yield entanglement distillation protocols. These protocols are designed to correct single-qubit errors and can be adapted using classical error-correcting codes that address both bit-flip and phase-flip errors. The work proposes a constant-depth decoder for stabilizer codes, which simplifies the transformation of logical states into physical ones through single-qubit measurements. This innovation reduces circuit depth and enables the use of high-performance quantum error-correcting codes in entanglement distillation. Furthermore, the research presents a fault-tolerant protocol for encoding and decoding arbitrary states within surface codes, with potential applications extending to more general quantum low-density parity-check codes. The proposed methods are feasible with current reconfigurable atom arrays and surpass traditional logarithmic depth encoders, thereby advancing both quantum communication and computing.
+                </div>
+                <a href="https://arxiv.org/abs/2408.06299" class="link">https://arxiv.org/abs/2408.06299</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Recovery of Quantum Correlations using Machine Learning</h2>
+                <div class="authors">Edward W. Steele, Donald R. Reising, Tian Li</div>
+                <div class="summary">
+                摘要：在这项研究中，我们提出了一种利用长短期记忆（LSTM）机器学习技术来减轻散射对量子系统中强关联量子源的负面影响的方法。我们的实验通过四波混频在温热铷蒸气中生成两模式挤压光，其中一模式经过散射装置以破坏其量子关联性。我们使用相互信息和强度差异挤压作为量子关联性的衡量标准，展示了74.7%的相互信息恢复和87.7%的两模式挤压恢复，这些结果是在存在大量光子损失的情况下实现的，而光子损失通常会破坏量子关联性。这种方法标志着在不需要硬件修改的情况下从随机中断中恢复量子关联性的重大进步，为实际应用量子协议铺平了道
+                </div>
+                <a href="https://arxiv.org/abs/2410.02818" class="link">https://arxiv.org/abs/2410.02818</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Processing and Decoding Rydberg Decay Error with MBQC</h2>
+                <div class="authors">Cheng-Cheng Yu, Zi-Han Chen, Yu-Hao Deng, Ming-Cheng Chen, Chao-Yang Lu, Jian-Wei Pan</div>
+                <div class="summary">
+                摘要：实现中性原子系统的容错量子计算需要仔细考虑固有错误。一个常见错误是在多比特门实现期间Rydberg态的泄漏，这可能导致多个关联错误并降低纠错性能。为了解决这个问题，研究人员提出了消除转换协议，利用快速泄漏检测和连续原子更换，将泄漏错误转化为良性消除错误。此方法虽然在阈值高且错误距离d_e = d，但适用性有限。在本工作中，我们提出了一种新方法来管理基于测量的量子计算（MBQC）中的Rydberg衰变错误。从硬件角度，我们使用实际实验技术和保利旋转近似（PTA）的改编，以减轻泄漏错误的影响，而不降低错误距离。从解码角度，利用拓扑集群态的结构和最终泄漏检测信息定位传播的Rydberg衰变错误。此方法无需电路中间泄漏检测，同时保持d_e = d，并实现了每CZ门3.617(3)%的高阈值纯Rydberg衰变。在存在额外Pauli错误的情况下，我们展示了协议在合理物理错误范围内逻辑错误率的性能，并与消除转换比较。结果显示，在适度R_e范围内性能相当，表明该方法可应用于近期平台。
+                </div>
+                <a href="https://arxiv.org/abs/2411.04664" class="link">https://arxiv.org/abs/2411.04664</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Quantum Error Correction resilient against Atom Loss</h2>
+                <div class="authors">Hugo Perrin, Sven Jandura, Guido Pupillo</div>
+                <div class="summary">
+                
+                </div>
+                <a href="https://arxiv.org/abs/2412.07841" class="link">https://arxiv.org/abs/2412.07841</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Probing Entanglement Scaling Across a Quantum Phase Transition on a Quantum Computer</h2>
+                <div class="authors">Qiang Miao, Tianyi Wang, Kenneth R. Brown, Thomas Barthel, Marko Cetina</div>
+                <div class="summary">
+                摘要：强关联量子物质的研究由于维度诅咒和复杂的纠缠结构而具有困难。这些挑战在连续量子相变附近尤其突出，其中量子波动在所有长度尺度上表现出来。虽然量子模拟器提供了对一系列强关联系统的控制访问，但批判现象的研究受到发散相关长度导致的有限尺寸效应的阻碍。此外，多体系统中纠缠性的实验调查由于测量协议的限制而受到阻碍。为了解决这些挑战，我们采用了多尺度纠缠再归一化假设（MERA）并在全连接的陷离子量子计算机上实施全息子系统断面方案。我们的方法可以用少量量子比特准确表示无限系统和长程关联，从而促进了即使在临界点观测值和纠缠性质的有效提取。我们观察到具有自发对称性破坏的量子相变，并揭示了批判点跨越纠缠性质的演化。我们是首次在数字量子计算机上展示了临界点处子系统纠缠熵的对数定律缩放。这一成就突显了MERA方法对于在量子计算机上研究强关联多体系统的潜力。
+                </div>
+                <a href="https://arxiv.org/abs/2412.18602" class="link">https://arxiv.org/abs/2412.18602</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Noise Mitigation in Single Microwave Photon Counting by Cascaded Quantum Measurements</h2>
+                <div class="authors">Alexandre S. May, Leo Sutevski, Jeanne Solard, Gil Cardoso, Léon Carde, Louis Pallegoix, Raphael Lescanne, Denis Vion, Patrice Bertet, Emmanuel Flurin</div>
+                <div class="summary">
+                摘要：单光子计数在光学领域已常规实现，而工作单微波光子探测器（SMPDs）的演示则刚刚出现。SMPDs对于检测来自非相干发射者的弱信号至关重要，应用范围从检测个别电子自旋和暗物质候选者到混合量子设备和超导量子计算的进步。这些探测器通过绕过标准量子极限提供了显著优势，因此进一步减少其固有噪声对于在微波频率下推进量子感知至关重要。几种SMPD设计利用超导量子比特的状态对编码流动光子的检测，并依赖于非破坏性的光子-量子比特相互作用。我们通过级联四波混频过程重复测量入射光子并在几个量子比特上编码检测，利用了这种量子非毁灭性特性。此级联探测器减轻了单个量子比特的固有局部噪声，在效率减半的情况下实现了噪声的两个数量级降低。我们报告了$8(1)\times10^{-24}\text{W}/\sqrt{\text{Hz}}$的内在灵敏度，操作灵敏度受输入线中的热光子限制，为$5.9(6)\times 10^{-23}\text{W}/\sqrt{\text{Hz}}$。
+                </div>
+                <a href="https://arxiv.org/abs/2502.14804" class="link">https://arxiv.org/abs/2502.14804</a>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Quantum Frontiers in High Energy Physics</h2>
+                <div class="authors">Yaquan Fang, Christina Gao, Ying-Ying Li, Jing Shu, Yusheng Wu, Hongxi Xing, Bin Xu, Lailin Xu, Chen Zhou</div>
+                <div class="summary">
+                摘要：高能物理学（HEP）领域仍然存在许多挑战，这些挑战需要在检测技术、计算方法、数据分析框架和现象学设计方面取得进展。我们对这些领域的最新进展进行了简明但全面的概述，与量子技术的进步相一致。我们将讨论量子设备在探测暗示新物理超出标准模型的微妙效果方面的潜力，量子算法和大规模量子计算机在研究早期宇宙和对撞机中实时非微扰动力学以及分析复杂HEP数据方面的变革作用。此外，我们强调将量子特性集成到HEP实验中的重要性，以便在前所未有的高能尺度上测试量子力学并寻找新物理的迹象。展望未来，继续整合资源以充分利用这些不断发展的技术，将增强我们深化对自然基本法则理解的努力。
+                </div>
+                <a href="https://arxiv.org/abs/2411.11294" class="link">https://arxiv.org/abs/2411.11294</a>
+                </div>
+                
+        </body>
+        </html>
+        
