@@ -1,0 +1,433 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <title>2025-11-20 Arxiv papers related with quantum computing overview</title>
+        <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+        .literature-item {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-top: 0;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #eee;
+        }
+        .authors {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+        .summary {
+            color: #444;
+            text-align: justify;
+        }
+        .link {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .comment-section {
+            margin-top: 10px;
+        }
+        .comment-input {
+            width: 80%;
+            padding: 5px;
+            margin-right: 5px;
+        }
+        .comment-button {
+            padding: 5px 10px;
+        }
+        .comment-list {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 5px;
+        }
+        .comment-list li {
+            border: 1px solid #eee;
+            padding: 5px;
+            margin-bottom: 3px;
+        }
+        
+        </style>
+        </head>
+        <body>
+        <h1>2025-11-20 Arxiv papers related with quantum computing overview</h1>
+        
+        <h1>Keywords: ['superconducting qubit', 'quantum error correction', 'superconducting circuit', 'surface code', 'transmon', 'quantum parity detection', 'quasiparticle', 'quantum sensor', 'charge parity']</h1>
+        
+
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>An Error Correctable Implication Algebra for a System of Qubits</h2>
+                <div class="authors">Morrison Turnansky</div>
+                <div class="summary">
+                摘要：我们提出卢卡谢维茨逻辑是一个适用于量子比特系统的蕴涵代数系统。我们的研究结果表明，三值的卢卡谢维茨逻辑可以嵌入到任意量子纠错码稳定器空间中。接着，我们完全描述了可能出现的非平凡错误（直至群同构）。最后，通过显式算法实例，我们展示了如何将任何符合卢卡谢维茨逻辑的算法立即运行在一个量子系统上并利用不确定态。
+                </div>
+                <a href="https://arxiv.org/abs/2511.14797" class="link">https://arxiv.org/abs/2511.14797</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-0" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(0)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-0"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>The PID Controller Strikes Back: Classical Controller Helps Mitigate Barren Plateaus in Noisy Variational Quantum Circuits</h2>
+                <div class="authors">Zhehao Yi, Rahul Bhadani</div>
+                <div class="summary">
+                摘要：变分量子算法结合了经典优化和量子计算的优势，是Noisy Intermediate-Scale Quantum (NISQ)时代最有前途的方法之一。然而，在使用梯度下降进行优化时，VQA常常遭遇消失梯度问题，即所谓的贫瘠高原。为此，提出了一种混合方法，将经典比例-积分-微分(PID)控制器与神经网络结合，用于更新变分量子电路的参数。此方法被称为NPID，旨在缓解贫瘠高原问题。该算法通过在随机生成的量子输入态和带有参数噪声的随机量子电路上进行测试，以评估其通用性，并在不同噪声水平下进行额外仿真以考察其稳健性。提出的方法的有效性基于其收敛速度到目标成本值。仿真结果表明，NPID的收敛效率比NEQP和QV高2-9倍，在不同噪声水平下的性能波动平均只有4.45%。这些结果凸显了将经典控制理论融入量子优化的潜力，为提高变分量子算法的可训练性和稳定性提供了新的视角。
+                </div>
+                <a href="https://arxiv.org/abs/2511.14820" class="link">https://arxiv.org/abs/2511.14820</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-1" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(1)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-1"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Pattern-Dependent Performance of the Bernstein-Vazirani Algorithm</h2>
+                <div class="authors">Muhammad AbuGhanem</div>
+                <div class="summary">
+                摘要：这段文字讨论了量子计算机在现实噪声条件下的性能退化问题，特别是伯恩斯坦-瓦兹拉尼算法在不同测试模式下的表现。研究使用超导量子处理器进行硬件感知基准测试，发现算法性能对问题结构非常敏感。在理想模拟、有噪声仿真和实际硬件执行中，成功率分别为100.0%、85.2%和26.4%，显示出在现实硬件与有噪声仿真之间存在显著的58.8%性能差距。通过量子状态.tomography确认了平均保真度为0.993、0.760和0.234，表明硬件上的显著下降。成功率从稀疏模式下的75.7%骤降到高密度10量子比特模式的完全失败。最引人注目的是，量子状态.tomography显示出模式密度与态保真度退化之间几乎完美的相关性，这为观察到的性能模式提供了基本解释。实际硬件测量中出现的灾难性保真度崩溃（从预期的0.763降至0.111）凸显当前噪声模型在捕捉基于结构的错误机制方面存在严重限制。这项工作将模式相关性能确立为部署量子算法的关键考虑因素，并提供了一个用于预测实际应用中算法可行性的定量框
+                </div>
+                <a href="https://arxiv.org/abs/2511.14821" class="link">https://arxiv.org/abs/2511.14821</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-2" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(2)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-2"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Intrinsic Quantum Codes: One Code To Rule Them All</h2>
+                <div class="authors">Eric Kubischta, Ian Teixeira</div>
+                <div class="summary">
+                摘要：Drawing on the analogy between intrinsic and extrinsic geometry, we define an intrinsic quantum code as a subspace of a group representation. We show how this abstract code rules over any physical (extrinsic) realization by dictating its error-correction properties. By finding one intrinsic code, we simultaneously uncover properties of all its realizations. This approach brings diverse codes into a unified framework and binds them through a single underlying symmetry
+                </div>
+                <a href="https://arxiv.org/abs/2511.14840" class="link">https://arxiv.org/abs/2511.14840</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-3" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(3)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-3"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Radial Fast Entangling Gates Under Micromotion in Trapped-Ion Quantum Computers</h2>
+                <div class="authors">Phoebe Grosser, Monica Gutierrez Galan, Isabelle Savill-Brown, Alexander K. Ratcliffe, Haonan Liu, Varun D. Vaidya, Simon A. Haine, C. Ricardo Viteri, Joseph J. Hope, Zain Mehdi</div>
+                <div class="summary">
+                摘要：射频离子阱中的微动通常被认为对量子逻辑门有害，通常会在最先进的实验中尽可能减少。然而，作为一个确定性的影响，它可以被纳入旨在设计高保真度量子逻辑控制的量子控制框架中。在这项工作中，我们证明了微动对利用两离子晶体径向模式设计快速门有益，特别是在亚阱周期制式下，其中高保真度控制序列与从几百纳秒到微秒的操作时间范围相关。通过分析选择的快速门解决方案，我们揭示了微动增强的物理起源，并进一步研究在实验噪声和控制不完美情况下引起的门错误。此分析确立了利用微动敏感径向模式实现高保真度纠缠门在数百纳秒内可行性。
+                </div>
+                <a href="https://arxiv.org/abs/2511.15148" class="link">https://arxiv.org/abs/2511.15148</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-4" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(4)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-4"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Fail fast: techniques to probe rare events in quantum error correction</h2>
+                <div class="authors">Michael E. Beverland, Malcolm Carroll, Andrew W. Cross, Theodore J. Yoder</div>
+                <div class="summary">
+                摘要：量子误差校正的最终目标是创建具有非常低错误率（例如1e-12）的逻辑量子比特，并将其集成到能够执行大量（例如数十亿次）逻辑门的大规模量子计算机中，这些计算机可以操作大量（例如数千个）的逻辑量子比特。然而，使用标准的蒙特卡罗采样直接评估这种高质量逻辑量子比特的性能在本质上是困难的，因为逻辑故障事件非常罕见。在现有方法的基础上，我们开发了三种互补技术来表征在电路噪声下一般量子低密度奇偶校验（qLDPC）码中的稀有事件。 (I) 我们提出了一种适用于我们所研究的所有QEC系统并能够预测所有物理错误率下的逻辑错误率的、具有较好动机的低参数失败谱_ansatz。（II）我们找到综合征测量电路的最小权重逻辑算符，并精确计算了最小权重故障配置的数量。 (III) 我们使用多播种的Metropolis采样将分裂方法推广到qLDPC码，以改善在具有许多不等效逻辑算符的情况下系统收敛性。我们将这些工具应用于受电路噪声影响的距离为6、12和18的双变量自行车代码，观察到使用近期提出的Relay解码器时强大的低错误率性能，但也发现了进一步改进的很大空间。
+                </div>
+                <a href="https://arxiv.org/abs/2511.15177" class="link">https://arxiv.org/abs/2511.15177</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-5" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(5)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-5"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Thermalizing channel states for rapid qubit heating</h2>
+                <div class="authors">Ziyang You, Wenhui Huang, Libo Zhang, Song Liu, Youpeng Zhong, Yibo Gao, Hou Ian</div>
+                <div class="summary">
+                摘要：虽然热浴通常被认为对超导量子比特的操作有负面影响，但如果正确设计，热浴可以在积极的方式下控制量子比特。我们展示了一种实验方法，通过泄漏谐振器实现微波驱动到热流的传导。由于精确的转换，接受热流的量子比特可以在数百纳秒内达到任意目标温度的准热平衡状态。我们证明了量子传感过程的动力学由热化通道状态描述，这些状态是由谐振器的半经典驱动和量子比特-谐振器耦合产生的双重装饰。其频谱、耦合和驱动强度决定了能流的通道速率，以及光子的泄漏放松到浴缸中的速率。分析预测与Xmon量子比特电路上的实验测量结果相符。
+                </div>
+                <a href="https://arxiv.org/abs/2511.15314" class="link">https://arxiv.org/abs/2511.15314</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-6" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(6)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-6"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Design and Optimization of Adaptive Diversity Schemes in Quantum MIMO Channels</h2>
+                <div class="authors">Shehbaz Tariq, Symeon Chatzinotas</div>
+                <div class="summary">
+                摘要：随着量子网络向完整的量子互联网发展，可靠地在量子多入多出（QuMIMO）设置中进行传输变得至关重要，但由于噪声、交叉-talk以及量子信息在子信道间的混合，仍然具有挑战性。为了提高此类环境中的可靠性，我们研究了一种基于发送端的普遍不对称克隆和接收端的概率净化的自适应多样性策略 для离散变量QuMIMO系统。输入qubit被编码为M个近似克隆，通过N×N多模式量子信道传输，并通过使用可用信道状态信息（CSI）优化的净化映射恢复。对于给定的克隆不对称参数，我们推导出解码器最优端到端忠实度的特征值基于表达式，以一般化瑞利商的形式表示，从而能够在没有迭代优化的情况下高效地调整克隆器。作为设计选择，我们采用半定规划（SDP）来仅针对目标成功概率p构建净化映射。此数值框架用于研究固定噪声、维度缩放噪声和随机去偏振化调节。引入了一个克隆不对称指数，以量化在这些操作条件下量子信息在多个子信道之间的分布。结果表明，所提出的方案在交叉-talk占主导地位的环境中提供了显著的忠实度增益，并且可以自适应地调整以适应信道对称性和信道条件。此工作为未来的QuMIMO系统设计提供了指南，并为更高级的传输和解码策略建立了一个强大的基线。 
+                </div>
+                <a href="https://arxiv.org/abs/2511.15563" class="link">https://arxiv.org/abs/2511.15563</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-7" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(7)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-7"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Experimental demonstration of non-local magic in a superconducting quantum processor</h2>
+                <div class="authors">Halima Giovanna Ahmad, Gianluca Esposito, Viviana Stasino, Jovan Odavic, Carlo Cosenza, Alessandro Sarno, Pasquale Mastrovito, Michele Viscardi, Stefano Cusumano, Francesco Tafuri, Davide Massarotti, Alioscia Hamma</div>
+                <div class="summary">
+                摘要：魔法是一种非经典资源，其高效操作对发展高效且可扩展的容错量子计算至关重要。只有当魔法和纠缠同时存在时，量子优势才可能实现。特别引人注意的是非局部魔法——无法通过局部单元操作提取（或擦除）的资源分数，这是量子复杂行为所必需的特征。我们在超导量子处理单元（QPU）上首次实验演示了非局部魔法。直接访问QPU设备使我们能够识别并表征固有于量子硬件的主要噪声机制。我们的系统在不需要任何自由参数的情况下，理论和实验结果之间表现出极好的一致性，并展示了实现在本地和非本地魔法资源之间分别利用的实验能力，从而为更可靠的容错前量子设备提供了一条有前景的路径，并推动了近期内对量子信息硬件感知研究的发展。最后，本工作中开发的方法和工具有助于高效纯度估计（具有指数速度提升）的实验实现，以及从黑洞玩具模型解码霍金辐射。
+                </div>
+                <a href="https://arxiv.org/abs/2511.15576" class="link">https://arxiv.org/abs/2511.15576</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-8" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(8)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-8"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Quantum measurement tomography with mini-batch stochastic gradient descent</h2>
+                <div class="authors">Akshay Gaikwad, Manuel Sebastian Torres, Anton Frisk Kockum</div>
+                <div class="summary">
+                摘要：本研究受量子态断层扫描[\href{this https URL}{Quantum Sci.~Technol.~\textbf{10} 045055 (2025)}]和量子过程断层扫描[\href{this https URL}{Phys.~Rev.~Lett.~\textbf{130}, 150402 (2023)}]中数据处理的梯度下降方法的启发，提出了一种适用于离散变量和连续变量量子系统的快速量子测量断层扫描（QMT）的随机梯度下降（SGD）算法，从而完成了断层扫描三部曲。量子实验中的测量设备或探测器由一组正值运算符-值测量（POVM）元描述；QMT的目标是从实验数据估计这些运算符。为了确保物理上有效（正和完整）的POVM重建，我们在SGD框架内提出了两种不同的参数化方案：一种利用Stiefel流形上的优化，另一种基于通过特征值缩放进行厄米特算子归一化。在SGD-QMT框架内，我们还研究了两种损失函数：均方误差（等同于L2或欧几里得范数）和平均负对数似然度，由最大似然估计启发。我们将性能与最先进的约束凸优化方法进行了基准测试。数值模拟表明，与标准方法相比，我们的SGD-QMT算法在计算成本、重建保真度和抗噪声能力方面表现出显著优势。我们在\href{this https URL}{this http URL}公开发布了SGD-QMT算法的Python实现。
+                </div>
+                <a href="https://arxiv.org/abs/2511.15682" class="link">https://arxiv.org/abs/2511.15682</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-9" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(9)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-9"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Note on Logical Gates by Gauge Field Formalism of Quantum Error Correction</h2>
+                <div class="authors">Junichi Haruna</div>
+                <div class="summary">
+                摘要：The gauge field formalism, or operator-valued cochain formalism, has recently emerged as a powerful framework for describing quantum Calderbank-Shor-Steane (CSS) codes. In this work, we extend this framework to construct a broad class of logical gates for general CSS codes, including the S, Hadamard, T, and (multi-)controlled-Z gates, under the condition where fault-tolerance or circuit-depth optimality is not necessarily imposed. We show that these logical gates can be expressed as exponential of polynomial functions of the electric and magnetic gauge fields, which allows us to derive explicit decompositions into physical gates. We further prove that their logical action depends only on the (co)homology classes of the corresponding logical qubits, establishing consistency as logical operations. Our results provide a systematic method for formulating logical gates for general CSS codes, offering new insights into the interplay between quantum error correction, algebraic topology, and quantum field theory.
+                </div>
+                <a href="https://arxiv.org/abs/2511.15224" class="link">https://arxiv.org/abs/2511.15224</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-10" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(10)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-10"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>NN-AE-VQE: Neural network parameter prediction on autoencoded variational quantum eigensolvers</h2>
+                <div class="authors">Koen Mesman, Yinglu Tang, Matthias Moller, Boyang Chen, Sebastian Feld</div>
+                <div class="summary">
+                摘要：一个长期存在的计算挑战是对多体粒子系统进行准确模拟，特别是在推导电池材料和高熵合金等高影响但复杂系统的关键特性时。虽然简单模型可以允许大规模模拟，但这些方法通常无法捕捉到决定特性的复杂动力学。一种长期理论提出的方法是为此目的使用量子计算机，它允许对量子力学系统进行更高效的编码。在过去几年中，量子计算领域变得成熟得多。此外，机器学习与量子计算结合的兴起进一步推动了近期优势。在这项工作中，我们旨在通过提出带有神经网络预测的自动编码VQE方法来改进计算相互原子势能的久经验证的量子计算方法，即NN-AE-VQE。我们应用量子自编码器进行原子系统压缩量子状态表示，然后对其应用简单电路参数 Ansatz。这减少了需要优化的电路参数数量，同时仍然最小化准确性的降低。此外，我们训练一个经典神经网络来预测电路参数以避免计算密集的参数优化。我们在H2分子上展示了这些方法，达到了化学精度。我们相信这种方法显示出高效捕捉高度准确系统同时省略当前变分量子算法瓶颈的希望。最后，我们探索利用算法结构和进一步改进算法的选项。
+                </div>
+                <a href="https://arxiv.org/abs/2411.15667" class="link">https://arxiv.org/abs/2411.15667</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-11" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(11)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-11"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Quantum error correction for long chains of trapped ions</h2>
+                <div class="authors">Min Ye, Nicolas Delfosse</div>
+                <div class="summary">
+                摘要：我们提出了一个基于被困离子链的量子计算模型，并为该模型设计了量子错误纠正方案。量子错误纠正方案的主要组成部分是量子码和综合征提取电路，这个电路用于执行此类编码的错误纠正。在这项工作中，我们针对离子链模型设计了定制的综合征提取电路，一种优化这些电路的调谐协议，并构建了新的量子码，其性能超过现有的关于大约50个量子比特链的最先进技术。为了在离子链模型下建立基线，我们模拟了配备我们优化综合征提取电路的表面码和双变量自行车（BB）代码的性能。然后，我们提出了一种新的基于权重为五的测量定义的BB代码变体，即所谓的BB5代码，并确定了实现比具有相同逻辑量子比特和数据量子比特数的任何BB代码更好的最小距离的BB5代码，例如一个[[48, 4, 7]] BB5代码。在物理错误率为10^{-3}的情况下，[[48, 4, 7]] BB5代码实现了每逻辑量子比特的5 \cdot 10^{-5}的逻辑错误率，这是我们基线系列中最佳BB代码的四分之一。它还实现了与距离为7的表面码相同的每逻辑量子比特的逻辑错误率，但使用的物理量子比特数是后者的四分之一。
+                </div>
+                <a href="https://arxiv.org/abs/2503.22071" class="link">https://arxiv.org/abs/2503.22071</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-12" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(12)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-12"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Optimal Decoder for the Error Correcting Parity Code</h2>
+                <div class="authors">Konstantin Tiurev, Christophe Goeller, Leo Stenzel, Paul Schnabl, Anette Messinger, Michael Fellner, Wolfgang Lechner</div>
+                <div class="summary">
+                摘要：我们提出了一种两步解码器用于奇偶码，并评估了其在代码容量和故障测量设置下的性能。在无噪声测量的情况下，我们发现解码问题可以简化为一系列重复码，同时实现接近最优的中间规模代码解码，并在大型代码限制下达到最优性。在不可靠测量的环境中，解码器在(1 + 1)维中显示出超过5%的容错阈值，代价是对一系列独立重复码进行解码。这种高阈值，加上实用的解码器、高效的长距离逻辑门以及适合平面实现，使得奇偶架构成为在具有强噪声偏移的量子比特平台上展示量子优势的有力候选。
+                </div>
+                <a href="https://arxiv.org/abs/2505.05210" class="link">https://arxiv.org/abs/2505.05210</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-13" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(13)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-13"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Identifying optimal magnetic field configurations for decoherence mitigation of boron vacancies in hexagonal boron nitride</h2>
+                <div class="authors">Basanta Mistri, Saksham Mahajan, Felix Donaldson, Rama K. Kamineni, Siddharth Dhomkar</div>
+                <div class="summary">
+                摘要：二维六方氮化硼中带负电的硼空位中心已成为一种有前途的量子传感器。然而，其灵敏度受到周围无处不在的核自旋的限制，这些核自旋与中心电子自旋超细耦合，有效地充当了磁场波动器，导致快速去相干。在这里，我们探讨静态磁场强度和方向在实现能够提高自旋相干性的特殊子空间中的有效性。具体来说，利用自旋哈密顿量的详细数值模拟，我们确定了能够最小化能量梯度并因此预计能够抑制去相干的特定场配置。我们还基于扰动理论开发了一个近似的分析模型，该模型能够准确地预测这些低梯度子空间，适用于与附近核自旋耦合的任何自旋-1电子系统中与电子自旋量子化轴对齐的磁场。不仅如此，为了激发实验验证，我们估计了在各种偏置场配置下的相干性寿命，并展示了在某些区域确实可以实现显著的去相干抑制。这些发现和开发的方法为减轻低场环境中的去相干提供了宝贵的见解。
+                </div>
+                <a href="https://arxiv.org/abs/2505.06574" class="link">https://arxiv.org/abs/2505.06574</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-14" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(14)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-14"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Evidence of Memory Effects in the Dynamics of Two-Level System Defect Ensembles Using Broadband, Cryogenic Transient Dielectric Spectroscopy</h2>
+                <div class="authors">Qianxu Wang, Sara Magdalena Gómez, Juan S. Salcedo-Gallo, Roy Leibovitz, Jake Freeman, Simon A. Agnew, Salil Bedkihal, William J. Scheideler, Mattias Fitzpatrick</div>
+                <div class="summary">
+                摘要：双级系统（TLS）缺陷在介质中引起超导电路的去相干，但其来源、频率分布和偶极矩仍不清楚。现有基于量子比特或谐振器的探测方法需要复杂的制造，并且仅能在狭窄频带内检测缺陷，限制了对TLS行为的理解。我们引入了宽带低温瞬态介电光谱技术（BCTDS），一种能够在低温下探测TLS集体的三维波导技术。该方法与介电偶法互补，覆盖更广的频谱并揭示驱动诱导的侧带干涉。BCTDS的宽带和功率可调特性使其适合研究驱动TLS集体中的裸态物理，包括多光子过程和分辨侧带动力学。通过分析时域信号的傅里叶变换，BCTDS揭示了未驱动TLS集体的特征V形频率，并发现了由于相互作用和宽带激发产生的记忆效应。此模块化方法可在整个器件制造过程中应用，为减轻策略提供信息并推进低损耗材料的设计，对量子技术和材料科学具有广泛影响。
+                </div>
+                <a href="https://arxiv.org/abs/2505.18263" class="link">https://arxiv.org/abs/2505.18263</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-15" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(15)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-15"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Interradical motion can push magnetosensing precision towards quantum limits</h2>
+                <div class="authors">Luke D. Smith, Farhan T. Chowdhury, Jonas Glatthard, Daniel R. Kattnig</div>
+                <div class="summary">
+                摘要：磁敏感自旋相关激进对（SCRPs）为抗噪声量子测量提供了一个有前途的平台。然而，无法避免的激进间相互作用，如电子-电子偶极和交换耦合，以及由内在激进运动引起的有害扰动，通常会降低它们作为磁计的潜力。与此相反，我们展示了结构化分子运动如何调节激进间相互作用，在隐形蟲蛋白中的活体化学传感器中实际上可以增加灵敏度，并且更重要的是，将磁场方向估计的精度推向接近量子Cramér-Rao下限，表明接近最优的测量学性能。remarkably，这种对最优性的方法在环境噪声下得到放大，并随着自旋系统复杂性的增加而持续存在，表明这种自然系统固有的扰动使它们能够更接近量子极限，更有效地从弱地磁场中提取信息。这种见解开辟了利用分子运动调节电子自旋-自旋相互作用的潜在物理原理来设计高效的分子量子信息技术手段的可能性。
+
+这个摘要涉及的是磁敏感自旋相关激进对（SCRPs）在抗噪声量子测量中的应用，以及如何通过结构化分子运动调节激进间相互作用以提高磁场测量的灵敏度和精度。这与关键词中的“quantum sensor”（量子传感器）强相关，因为它直接讨论了利用SCRPs进行量子测量，特别是磁场方向估计。因此，这段文字与给定的关键词强相关。
+                </div>
+                <a href="https://arxiv.org/abs/2506.21389" class="link">https://arxiv.org/abs/2506.21389</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-16" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(16)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-16"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>The Role of Symmetry in Generalized Hong-Ou-Mandel Interference and Quantum Metrology</h2>
+                <div class="authors">Éloi Descamps, Arne Keller, Pérola Milman</div>
+                <div class="summary">
+                摘要：Hong-Ou-Mandel干涉仪是在量子光学中具有基础性的工具，既具有理论意义，也具有实际意义。早期研究表明，在两个空间模式交换的情况下，输入状态的对称性是理解Hong-Ou-Mandel效应的基本要素。我们现在证明，这种对称性的概念对于将这一效应推广至标准的两单光子情况之外至关重要。特别是，从这种观点出发，可以通过将波分割器自然地推广到离散傅里叶变换干涉仪，构建从任意输入状态到多于两个空间模式配置的扩展。此外，其概念上的意义以外，这一框架还为量子测量学提供了直接的见解，展示了如何通过输入状态的对称性属性来计算精确度边界。通过关注对称性，我们提供了一种能够简化和统一一系列已知结果的视角，同时为量子干涉和传感领域的新发展铺平道
+                </div>
+                <a href="https://arxiv.org/abs/2508.09887" class="link">https://arxiv.org/abs/2508.09887</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-17" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(17)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-17"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Modelling optimal generation of an arbitrary N-qubit quantum gate within the generalized Bloch vectors formalism due to the Pontryagin principle</h2>
+                <div class="authors">Sergey Kuznetsov, Elena R. Loubenets</div>
+                <div class="summary">
+                摘要：这篇论文致力于为闭合量子系统生成N-量子位门的最优问题，这是实现各种量子应用的关键任务。基于有限维量子系统的一般化Bloch向量形式，我们开发了一种新的全面的N-量子位门生成模型，该模型在一定意义上具有普遍性，因为它适用于任意的N-量子位门、任何闭合N-量子位系统的哈密顿量，并且在该模型中，最佳控制仅由N-量子位系统参数决定，而不依赖于其初始状态。在开发的模型中，通过Pontryagin原理进行的最优控制合成导致了一个边值问题，由一组常微分方程描述，可以采用各种计算方法探索。为生成各种单/两/三量子位门而进行的数值实验表明，所开发的最佳模型是可行的，它允许以高精度生成N-量子位量子门
+                </div>
+                <a href="https://arxiv.org/abs/2509.18059" class="link">https://arxiv.org/abs/2509.18059</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-18" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(18)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-18"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Observation of synchronization between two quantum van der Pol oscillators in trapped ions</h2>
+                <div class="authors">Jiarui Liu, Qiming Wu, Joel E. Moore, Hartmut Haeffner, Christopher W. Wächtler</div>
+                <div class="summary">
+                摘要：同步是集体行为的标志，当非线性系统相互作用时会出现这一现象，从机械振荡器到行星轨道都有其规模。作为一种普遍现象，它支撑着复杂系统研究，并具有深远的技术影响。虽然经典同步拥有悠久且丰富的历史，但在多个量子极限周期振荡器之间的实验同步，尽管经过十年的理论调查，仍未被观察到。我们通过在混合同位素捕获离子量子模拟器中设计消ipation，实现了两个量子范德波振荡器之间的同步。这一同步状态编码在振荡器之间固定的相对相位上，该相位无法通过局部测量获得，只能通过两者联合读数揭示，这与经典情况形成鲜明对比，在经典情况下，同步可以通过个体相位测量观察到。我们进一步展示了相对相位可以精确控制，并且两个振荡器的链可以同步到外部字段，这表明其在传感中的应用。我们的结果为研究超越两个振荡器的更复杂的同步量子动力学提供了一条有前途的路径，在这种情况下，理论处理变得越来越具有挑战性，而是否存在真正的量子特征仍待理解。
+                </div>
+                <a href="https://arxiv.org/abs/2509.18423" class="link">https://arxiv.org/abs/2509.18423</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-19" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(19)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-19"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Quantum Key Distribution via Charge Teleportation</h2>
+                <div class="authors">Amir Yona, Yaron Oz</div>
+                <div class="summary">
+                摘要：我们介绍了一种基于电荷传送的量子密钥分发（QKD）原语：通过对一个纠缠多体基态进行本地操作和经典通信（LOCC），Alice的一位选择决定了Bob处局部电荷移位符号的方向，从而直接编码密钥比特。相对于能量传送方案，电荷信号具有位对称性，可以在单一基底下测量，并且显著地更强健耐用于现实噪声和模型缺陷。我们通过易横场Ising模型、星型耦合和一维链来实现该协议，对两qubit的情况得出闭式结果，对更大的系统则通过精确对角化、电路级仿真以及硬件原型验证性能。我们评估了对抗经典比翻转和局部量子噪声的鲁棒性，找到了维持符号完整性的领域，从而保证了密钥正确性。这些结果使电荷传送成为一种现实可行、低速率的QKD原语，适用于近期技术平台。
+                </div>
+                <a href="https://arxiv.org/abs/2511.04188" class="link">https://arxiv.org/abs/2511.04188</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-20" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(20)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-20"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>GPa Pressure Imaging Using Nanodiamond Quantum Sensors</h2>
+                <div class="authors">Ryotaro Suda, Kenshin Uriu, Kouki Yamamoto, Misaki Sasaki, Kento Sasaki, Mari Einaga, Katsuya Shimizu, Kensuke Kobayashi</div>
+                <div class="summary">
+                摘要：我们展示了使用氮空位（NV）中心在纳米金刚石（NDs）作为量子传感器，在钻石菱压片细胞（DAC）中约20 GPa的压力分布下的宽域光学显微镜。通过与包含hydrostatic和uniaxial stress条件的模型拟合optically detected magnetic resonance (ODMR) spectra，获得了压力和non-hydrostaticity maps。比较了在pressure-transmitting medium中引入NDs的两种方法，表明embedding approach会影响non-hydrostaticity的程度。此基于ND的技术提供了一种强大的成像平台，用于探测压力诱导现象，并可扩展到其他物理量如磁
+                </div>
+                <a href="https://arxiv.org/abs/2506.09058" class="link">https://arxiv.org/abs/2506.09058</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-21" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(21)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-21"></ul>
+                </div>
+                </div>
+                
+        <script>
+        function addComment(paperIndex) {
+            const commentInput = document.getElementById(`comment-input-${paperIndex}`);
+            const commentText = commentInput.value;
+            if (commentText) {
+                const commentList = document.getElementById(`comment-list-${paperIndex}`);
+                const now = new Date();
+                const timestamp = now.toLocaleString();
+                const newComment = document.createElement('li');
+                newComment.textContent = `${timestamp}: ${commentText}`;
+                commentList.appendChild(newComment);
+                // 保存评论到本地存储
+                let comments = JSON.parse(localStorage.getItem(`comments-${paperIndex}`)) || [];
+                comments.push(`${timestamp}: ${commentText}`);
+                localStorage.setItem(`comments-${paperIndex}`, JSON.stringify(comments));
+                commentInput.value = '';
+            }
+        }
+        
+        // 页面加载时显示本地存储的评论
+        window.onload = function () {
+            const comments0 = JSON.parse(localStorage.getItem(`comments-0`)) || []; const commentList0 = document.getElementById(`comment-list-0`); comments0.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList0.appendChild(newComment); });const comments1 = JSON.parse(localStorage.getItem(`comments-1`)) || []; const commentList1 = document.getElementById(`comment-list-1`); comments1.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList1.appendChild(newComment); });const comments2 = JSON.parse(localStorage.getItem(`comments-2`)) || []; const commentList2 = document.getElementById(`comment-list-2`); comments2.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList2.appendChild(newComment); });const comments3 = JSON.parse(localStorage.getItem(`comments-3`)) || []; const commentList3 = document.getElementById(`comment-list-3`); comments3.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList3.appendChild(newComment); });const comments4 = JSON.parse(localStorage.getItem(`comments-4`)) || []; const commentList4 = document.getElementById(`comment-list-4`); comments4.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList4.appendChild(newComment); });const comments5 = JSON.parse(localStorage.getItem(`comments-5`)) || []; const commentList5 = document.getElementById(`comment-list-5`); comments5.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList5.appendChild(newComment); });const comments6 = JSON.parse(localStorage.getItem(`comments-6`)) || []; const commentList6 = document.getElementById(`comment-list-6`); comments6.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList6.appendChild(newComment); });const comments7 = JSON.parse(localStorage.getItem(`comments-7`)) || []; const commentList7 = document.getElementById(`comment-list-7`); comments7.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList7.appendChild(newComment); });const comments8 = JSON.parse(localStorage.getItem(`comments-8`)) || []; const commentList8 = document.getElementById(`comment-list-8`); comments8.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList8.appendChild(newComment); });const comments9 = JSON.parse(localStorage.getItem(`comments-9`)) || []; const commentList9 = document.getElementById(`comment-list-9`); comments9.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList9.appendChild(newComment); });const comments10 = JSON.parse(localStorage.getItem(`comments-10`)) || []; const commentList10 = document.getElementById(`comment-list-10`); comments10.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList10.appendChild(newComment); });const comments11 = JSON.parse(localStorage.getItem(`comments-11`)) || []; const commentList11 = document.getElementById(`comment-list-11`); comments11.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList11.appendChild(newComment); });const comments12 = JSON.parse(localStorage.getItem(`comments-12`)) || []; const commentList12 = document.getElementById(`comment-list-12`); comments12.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList12.appendChild(newComment); });const comments13 = JSON.parse(localStorage.getItem(`comments-13`)) || []; const commentList13 = document.getElementById(`comment-list-13`); comments13.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList13.appendChild(newComment); });const comments14 = JSON.parse(localStorage.getItem(`comments-14`)) || []; const commentList14 = document.getElementById(`comment-list-14`); comments14.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList14.appendChild(newComment); });const comments15 = JSON.parse(localStorage.getItem(`comments-15`)) || []; const commentList15 = document.getElementById(`comment-list-15`); comments15.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList15.appendChild(newComment); });const comments16 = JSON.parse(localStorage.getItem(`comments-16`)) || []; const commentList16 = document.getElementById(`comment-list-16`); comments16.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList16.appendChild(newComment); });const comments17 = JSON.parse(localStorage.getItem(`comments-17`)) || []; const commentList17 = document.getElementById(`comment-list-17`); comments17.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList17.appendChild(newComment); });const comments18 = JSON.parse(localStorage.getItem(`comments-18`)) || []; const commentList18 = document.getElementById(`comment-list-18`); comments18.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList18.appendChild(newComment); });const comments19 = JSON.parse(localStorage.getItem(`comments-19`)) || []; const commentList19 = document.getElementById(`comment-list-19`); comments19.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList19.appendChild(newComment); });const comments20 = JSON.parse(localStorage.getItem(`comments-20`)) || []; const commentList20 = document.getElementById(`comment-list-20`); comments20.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList20.appendChild(newComment); });const comments21 = JSON.parse(localStorage.getItem(`comments-21`)) || []; const commentList21 = document.getElementById(`comment-list-21`); comments21.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList21.appendChild(newComment); });
+        };
+        </script>
+        </body>
+        </html>
+        
