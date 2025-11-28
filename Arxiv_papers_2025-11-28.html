@@ -1,0 +1,513 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <title>2025-11-28 Arxiv papers related with quantum computing overview</title>
+        <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+        .literature-item {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-top: 0;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #eee;
+        }
+        .authors {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+        .summary {
+            color: #444;
+            text-align: justify;
+        }
+        .link {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #337ab7;
+            text-decoration: none;
+        }
+        .comment-section {
+            margin-top: 10px;
+        }
+        .comment-input {
+            width: 80%;
+            padding: 5px;
+            margin-right: 5px;
+        }
+        .comment-button {
+            padding: 5px 10px;
+        }
+        .comment-list {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 5px;
+        }
+        .comment-list li {
+            border: 1px solid #eee;
+            padding: 5px;
+            margin-bottom: 3px;
+        }
+        
+        </style>
+        </head>
+        <body>
+        <h1>2025-11-28 Arxiv papers related with quantum computing overview</h1>
+        
+        <h1>Keywords: ['superconducting qubit', 'quantum error correction', 'superconducting circuit', 'surface code', 'transmon', 'quantum parity detection', 'quasiparticle', 'quantum sensor', 'charge parity']</h1>
+        
+
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Closed-Loop Phase-Coherence Compensation for Superconducting Qubits Integrated Computational and Hardware Validation of the Aurora Method</h2>
+                <div class="authors">Futoshi Hamanoue</div>
+                <div class="summary">
+                摘要：我们介绍了基于仿真器的硬件可行性研究，展示了一种名为Aurora-DD的相位一致性补偿方法。该方法将基于符号的反馈更新全局相位偏移（Δφ）与固定深度的XY8动态去耦合（DD）框架相结合。反馈优化在校准后的仿真器上脱机进行，所得的Δφ*被部署为硬件上的预校准相位补偿。这代表了一个“脱机闭环、在线开放环”的可行性展示。使用基于Aer的仿真器（校准于ibm_fez设备参数）进行测试，Aurora-DD在测量期望值<Z>的均方误差上得到了实质性的降低，在相位设置φ=0.05、0.10、0.15、0.20的情况下，n=30次随机试验中改进了68%-97%。这些大规模仿真器结果提供了统计上稳定的证据，证明XY8与Δφ*的结合效果抑制了去相干和系统相位偏差。在真正的超导硬件（ibm_fez）上，我们进行了一次小样本（n=3）的多相位验证。Aurora-DD在所有测试相位点上都得到了对应的点估计，与无DD基线相比，绝对误差减少了约99.2%-99.6%。这些硬件数据被透明报告为可行性证据，以适应严格的队列和信用限制。相比之下，辅助的Aurora+ZNE分支表现出不稳定性：浅层两点ZNE有时会放大校准不一致性并产生大的错误异常值。因此，我们将ZNE分析重新legate到附录，并将Aurora-DD（无ZNE）定位为主要贡献。总体而言，结合的结果支持预校准的Aurora-DD作为NISQ设备在单量子比特设置中的一种实用、稳定和硬件兼容的相位一致性补偿器。
+                </div>
+                <a href="https://arxiv.org/abs/2511.20741" class="link">https://arxiv.org/abs/2511.20741</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-0" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(0)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-0"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Nonreciprocal quantum information processing with superconducting diodes in circuit quantum electrodynamics</h2>
+                <div class="authors">Nicolas Dirnegger, Prineha Narang, Arpit Arora</div>
+                <div class="summary">
+                摘要：引入新的元件和功能到量子设备中对于推进目前硬件的发展至关重要。我们在这里提出了超导二极管（SDs）作为回旋量子电动力学(cQED)架构中的相干非互易元件，特别是使用不对称的SQUID作为受通量偏置控制的SD。通过分光谱学表征了SD，并展示了通量偏置如何与二极管的非线性响应协同作用，从而在传输谱中引起方向依赖性的共振移位。我们将SD用作实现相干非互易量子比特-量子比特耦合的基本元件，并通过一个最小的双量子比特系统，展示了具有可调Bell态生成的非互易半iSWAP门，展示了固有非互易性作为量子技术中相干控制工具的潜力。我们的工作实现了所有到所有连接的微波量子网络中的高保真信号路由和纠缠态生成，其中非互易性嵌入在设备级别。
+                </div>
+                <a href="https://arxiv.org/abs/2511.20758" class="link">https://arxiv.org/abs/2511.20758</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-1" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(1)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-1"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Real-time Monitoring of Neon Film Growth for Electron-on-Neon Qubits</h2>
+                <div class="authors">Sidharth Duthaluru, Kaiwen Zheng, Erik A. Henriksen, Kater W. Murch</div>
+                <div class="summary">
+                
+                </div>
+                <a href="https://arxiv.org/abs/2511.20765" class="link">https://arxiv.org/abs/2511.20765</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-2" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(2)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-2"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Opportunities and Challenges of Computational Electromagnetics Methods for Superconducting Circuit Quantum Device Modeling: A Practical Review</h2>
+                <div class="authors">Samuel T. Elkin, Ghazi Khan, Ebrahim Forati, Brandon W. Langley, Dogan Timucin, Reza Molavi, Sara Sussman, Thomas E. Roth</div>
+                <div class="summary">
+                
+                </div>
+                <a href="https://arxiv.org/abs/2511.20774" class="link">https://arxiv.org/abs/2511.20774</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-3" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(3)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-3"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Many-Body Entanglement in Solid-State Emitters</h2>
+                <div class="authors">Emma Daggett, Christian M. Lange, Bennet Windt, Arshag Danageozian, Alexander Senichev, Jordi Arnau Montañà-López, Chanchal, Kinjol Barua, Xingyu Gao, Zhaoyun Zheng, Vijin Kizhake Veetil, Souvik Biswas, Jonas M. Peterson, Na Liu, Chuchuan Hong, Teri Odom, Matthew Pelton, Tongcang Li, Jelena Vučković, Vladamir Shalaev, Alexandra Boltasseva, Sophia E. Economou, Jonathan D. Hood, Valentin Walther, Rahul Trivedi, Libai Huang</div>
+                <div class="summary">
+                摘要：量子信息科学（QIS）中的量子态准备和控制至关重要。固态量子发射器和纳米光子学的最新进展改变了量子光子技术的格局，使得可扩展生成光物质的量子态成为可能。在固态量子光子学中，工程化多体相互作用以实现稳健的相干性和可控的多体纠缠态是一个新的研究方向。这些纠缠态包括光子图态、集群态、超辐射发射以及新生的量子相，对量子计算、传感和模拟具有潜力。然而，固态平台中的固有不均匀性和退相干化是实现这类复杂纠缠态的重大挑战。本文综述了固态量子发射器在光物质接口处的基本多体相互作用和动力学，并讨论了近期减缓退相干化并利用稳健多体相干性的进
+                </div>
+                <a href="https://arxiv.org/abs/2511.20797" class="link">https://arxiv.org/abs/2511.20797</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-4" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(4)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-4"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Mode multiplexing for scalable cavity-enhanced operations in neutral-atom arrays</h2>
+                <div class="authors">Ziv Aqua, Matthew L. Peters, David C. Spierings, Guoqing Wang, Edita Bytyqi, Thomas Propson, Vladan Vuletić</div>
+                <div class="summary">
+                摘要：中性原子阵列提供了一个多功能的平台，用于量子信息处理。然而，在大规模阵列中，高效的光子收集仍然是快速、非破坏性量子比特读取和远程纠缠分布等关键任务的瓶颈。我们提出了一种基于腔体的方法，该方法通过单一光学腔体的多个模式实现对许多原子的快速并行操作。通过选择性地移动相关的原子跃迁，每个原子都可以耦合到不同的腔体模式，从而允许独立的同时处理。我们提出了支持腔体模式复用最多可达50种模式的实际系统设计，从而能够快速实现中电路综合征提取，并显著提高远程原子阵列之间的纠缠分布速率。此方法为中性原子阵列中的核心挑战提供了一种可扩展的解决方案，推动了实用量子技术的发
+                </div>
+                <a href="https://arxiv.org/abs/2511.20858" class="link">https://arxiv.org/abs/2511.20858</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-5" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(5)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-5"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Compilation Pipeline for Predicting Algorithmic Break-Even in an Early-Fault-Tolerant Surface Code Architecture</h2>
+                <div class="authors">Tianyi Hao, Joseph Sullivan, Sivaprasad Omanakuttan, Michael A. Perlin, Ruslan Shaydulin</div>
+                <div class="summary">
+                摘要：最近的实验进展在实现表面码硬件方面取得了显著成果，包括在含有数百个物理量子比特的设备上演示了逻辑内存的突破性提升，这大大推动了容错量子计算的前景。这些进展加剧了开发直接针对未来拥有数千个物理量子比特的设备的编译工作流的必要性，因为对于这些设备，算法执行将变得实际可行。我们开发了一条用于将逻辑算法编译为在表面码上实现晶格手术的物理电路的管道，并利用该管道确定了实现算法突破性提升的要求，其中量子纠错码能够提高量子算法的性能。我们的管道集成了几个开源软件工具，并利用了最近在错误感知单元门合成、高保真度魔态生成以及表面码中的相关表计算方面的进展。我们对通过管道产生的物理Clifford代理电路进行了经典模拟，发现5量子比特的QAOA和QPE都可以在表面码距离$d=11$时使用2517个物理量子比特（物理错误率$p=10^{-3}$），或在$d=9$时使用1737个物理量子比特（$p=5\times 10^{-4}$）达到算法突破性提升。我们的工作确定了实现算法突破性提升的条件，并为早期容错表面码架构的端到端编译器铺平了道路。
+                </div>
+                <a href="https://arxiv.org/abs/2511.20947" class="link">https://arxiv.org/abs/2511.20947</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-6" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(6)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-6"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Tip-enhanced quantum-sensing spectroscopy for bright and reconfigurable solid-state single-photon emitters</h2>
+                <div class="authors">Hyeongwoo Lee, Taeyoung Moon, Hyeonmin Oh, Kijeong Park, Huitae Joo, Milos Toth, Igor Aharonovich, Kyoung-Duck Park</div>
+                <div class="summary">
+                摘要：六方晶硼氮烯（hBN）中的原子类缺陷在室温下提供单光子发射和相干自旋态，使其成为量子计算和传感应用的有望材料。然而，这些缺陷随机的空间和频谱特性限制了它们与纳米光学谐振器的决定性耦合，阻碍了其作为明亮单光子源和敏感量子传感器的使用。本研究中，我们展示了针对hBN中单光子发射体的尖端增强量子传感分光光谱技术。通过精确定位个别发射体在不同铂氏谐振的尖端-腔中的空间位置，我们可以适应性地控制激发和发射的增强率，以及单光子的纯度。这种方法使我们能够优化固态单光子源的重新配置，并同时进行纳米分光学的空间和时间分辨分析。此外，我们通过在尖端耦合hBN纳米片上进行电磁共振（ODMR）实验，展示了针对单自旋缺陷的尖端增强量子传感。这种方法为高度敏感且决定性的室温单光子发射体的量子传感提供了一条独特路径。
+                </div>
+                <a href="https://arxiv.org/abs/2511.21127" class="link">https://arxiv.org/abs/2511.21127</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-7" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(7)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-7"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Cost-effective scalable quantum error mitigation for tiled Ansätze</h2>
+                <div class="authors">Oskar Graulund Lentz Rasmussen, Erik Kjellgren, Peter Reinholdt, Stephan P. A. Sauer, Sonia Coriani, Karl Michael Ziems, Jacob Kongsted</div>
+                <div class="summary">
+                摘要：我们介绍了一种经济高效的量子误差减缓技术，它基于最近的Ansatz-based门和读取错误减缓方法（M0）。这种被称为M0的技术，利用铺砌式Ansatze（例如tUPS、QNP、硬件有效电路）的独特结构，对M0应用了局部近似，从而在噪声特征化的QPU成本上实现了指数级减少。我们通过对LiH、氢分子、水、1,3-丁二烯和苯（4-12个量子位）分子的基态能量计算，验证了该技术与tUPS Ansatz的应用，结果显示在噪声模拟中，与M0相比几乎没有或没有精度损失。我们还展示了该技术在量子实验中的性能，突出了其在近期应用中的潜力。
+                </div>
+                <a href="https://arxiv.org/abs/2511.21236" class="link">https://arxiv.org/abs/2511.21236</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-8" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(8)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-8"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Magic spreading under unitary Clifford dynamics</h2>
+                <div class="authors">Mircea Bejan, Pieter W. Claeys, Jiangtian Yao</div>
+                <div class="summary">
+                摘要：非稳定状态，或称量子魔法，是一种在量子纠错和计算中宝贵的资源。我们研究了单位Clifford电路中局部注入魔法的动力学，其中总魔法被保存。然而，由于缺乏衡量魔法的物理观测量，无法直接描述其局部分布和动力学。利用稳定器量子纠错码的见解，我们严格证明了魔法的空间分布可以从低魔法状态的一种规范表示中推断出来，这被称为二分魔法规范。此外，我们提出了两个与操作相关的魔法长度尺度。我们通过数值方法证实，在早期阶段，这些长度尺度以不同的速度（由纠缠速度决定）呈现弹道增长，之后魔法会变得非局域化。我们的工作阐明了量子资源和复杂性在多体动力学中的时空结构，为研究其传输特性及其与量子纠错码的进一步联系开辟了道路。
+                </div>
+                <a href="https://arxiv.org/abs/2511.21487" class="link">https://arxiv.org/abs/2511.21487</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-9" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(9)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-9"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Rapid ground state energy estimation with a Sparse Pauli Dynamics-enabled Variational Double Bracket Flow</h2>
+                <div class="authors">Chinmay Shrikhande, Arnab Bachhar, Aaron Rodriguez Jimenez, Nicholas J. Mayhall</div>
+                <div class="summary">
+                摘要：基态能量估计对于强关联量子系统仍然是计算物理和化学中的一个主要挑战。虽然张量网络方法如DMRG为一维系统提供了有效的解决方案，但高维问题仍然困难。我们提出了一种变分双括号流(vDBF)算法，该算法利用稀疏Pauli动力学，这是一种最初为经典模拟量子电路而开发的技术，来高效地近似基态能量。通过结合贪婪算子选择、系数截断和能量方差外推，该方法相对于DMRG基准在一维和二维的Heisenberg模型和Hubbard模型上都实现了低于1%的误差。在单个CPU线程上，对于10x10 Heisenberg晶格（100个qubit），vDBF在大约10分钟内获得精确结果，而DMRG需要64个线程超过50小时。对于8x8 Hubbard模型（128个qubit），速度提升甚至更明显。这些结果表明，在量子优势基准测试的背景下开发的经典模拟技术可以为多体物理提供实用的工具。
+                </div>
+                <a href="https://arxiv.org/abs/2511.21651" class="link">https://arxiv.org/abs/2511.21651</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-10" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(10)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-10"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>FPGA-tailored algorithms for real-time decoding of quantum LDPC codes</h2>
+                <div class="authors">Satvik Maurya, Thilo Maurer, Markus Bühler, Drew Vandeth, Michael E. Beverland</div>
+                <div class="summary">
+                摘要：实时解码对于容错量子计算至关重要，但可能需要专用硬件，如现场可编程门阵列（FPGA），其并行性会改变算法的相对性能。我们分析了针对量子低密度奇偶校验（qLDPC）代码的三类解码器的FPGA定制版本：消息传递、有序统计和聚类。对于消息传递，我们分析了最近引入的Relay解码器及其FPGA实现；对于有序统计解码（OSD），我们引入了一种过滤变体，集中计算在高概率故障位置；对于聚类，我们设计了适应FPGA的一般化并查集解码器。我们设计了一种针对秩不足系统的高斯消元的肾上腺素算法，以线性并行时间运行，使得聚类和过滤-OSD中快速有效性检查和局部更正成为可能，并消除昂贵的全秩逆运算。尽管有这些改进，聚类和过滤-OSD仍然比Relay解码器慢得多且准确性较低，这表明消息传递是实现实时qLDPC解码最可行的途径。
+                </div>
+                <a href="https://arxiv.org/abs/2511.21660" class="link">https://arxiv.org/abs/2511.21660</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-11" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(11)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-11"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Holographically Emergent Gauge Theory in Symmetric Quantum Circuits</h2>
+                <div class="authors">Akash Vijay, Jong Yeon Lee</div>
+                <div class="summary">
+                摘要：我们开发了一种全新的全息框架，用于分析具有全局对称性G的混合态随机量子电路（单元格和非单元格）。将电路视为张量网络，我们将其分解为两部分：一个对称层，定义了在更高维度中出现的应变测量波函数，以及一个由随机多重张量组成的无序非对称层。在单位电路中，散块态不受限制，但是在一般的非单元格电路（例如信道）下，散块理论可能会经历由于消量子干扰引起的相变：对于G = Z_N，当存在本地对称噪声时，电路可以作为一种具有Z_N表面代码拓扑保护的特定逻辑子空间的量子纠错码。然后我们确定从测量侧的电荷锐利化过渡与散块中的可解码性过渡是互补的：散块的噪声可以被视为环境的测量。对于N ≤4，弱测量会导致从具有切断时间t_#~e^{L}的模糊电荷相到具有切断时间t_#~O(1)的锐利电荷相的单一过渡，对应于破坏逻辑信息的限制。对于N >4，测量通常会生成一种具有无间隙光子和纯化时间t_# ~ O(L)的中间准长距离有序库仑相。
+                </div>
+                <a href="https://arxiv.org/abs/2511.21685" class="link">https://arxiv.org/abs/2511.21685</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-12" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(12)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-12"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>A note on quantum expanders</h2>
+                <div class="authors">Cécilia Lancien, Pierre Youssef</div>
+                <div class="summary">
+                摘要：我们证明了一大类具有少数 Kraus 算子的随机量子信道，在某些稀疏性和矩假设下采样为随机矩阵，通常表现出大的谱间隙，因此是最佳的量子扩展器。特别是，我们的结果提供了从它们的经典（随机或确定性）对应物中构造随机量子扩展器的方法。这显著增加了已知的最佳量子扩展器构造列表，之前仅限于少数几个例子。我们的证明依赖于最近在研究具有依赖关系和非均匀性的随机矩阵算子范数方面取得的进展，我们期望这些进展将在量子信息的几个领域中得到进一步应用。
+                </div>
+                <a href="https://arxiv.org/abs/2302.07772" class="link">https://arxiv.org/abs/2302.07772</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-13" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(13)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-13"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>A nanoparticle stored with an atomic ion in a linear Paul trap</h2>
+                <div class="authors">Dmitry S. Bykov, Lorenzo Dania, Florian Goschin, Tracy E. Northup</div>
+                <div class="summary">
+                摘要：射频（RF）陷阱能够实现带电粒子之间的高度控制交互，包括冷分子离子的反应、通过另一种离子对单个离子物种进行同情冷却，以及量子逻辑光谱学。然而，RF陷阱的电荷-质量（Q/m）选择性限制了能够在同一陷阱中同时约束的粒子的范围。在本研究中，我们通过在陷阱电极上施加双频电压，在同一射频陷阱中同时约束了两种粒子——纳米颗粒和原子离子，尽管它们的电荷-质量比相差六个数量级。我们引入了一个强健的超高真空加载程序，并对两种粒子的稳定性进行了表征。观察到，在双场环境下特有的缓慢场微运动对于离子定位起着至关重要的作用。我们的研究为多样化带电粒子之间的控制交互奠定了基础，无论它们的电荷或质量差异，应用领域从反物质合成到运动宏观量子态的生成。
+
+这段文字内容与给出的关键词强相关，因此返回True。最后一个词
+                </div>
+                <a href="https://arxiv.org/abs/2403.02034" class="link">https://arxiv.org/abs/2403.02034</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-14" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(14)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-14"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Analytical Lower Bound on Query Complexity for Transformations of Unknown Unitary Operations</h2>
+                <div class="authors">Tatsuki Odake, Satoshi Yoshida, Mio Murao</div>
+                <div class="summary">
+                摘要：最近的发展显示，确定性且精确的协议可以通过有限数量的查询来对一般d维未知单位矩阵进行复数共轭、反转和转置操作。在本研究中，我们建立了针对单位矩阵逆运算、转置和复数共轭查询复杂度的分析下界，这些下界即使输入单位矩阵是未知的具有对数深度的单位矩阵也成立。特别地，我们对单位矩阵反转得到的d²次方的下界证明了确定性的精确反转协议的渐近最优性，该协议使用O(d²)次查询。我们引入了一种新的利用微分来推导一般可微函数f: SU(d)→SU(d)查询复杂度下界的框架。作为一个推论，我们证明了催化协议对于单位矩阵的复数共轭是不可能的，这是一个最近在研究精确单位矩阵反转中新引入的概念。此外，我们将我们的框架扩展到部分已知设置，其中输入的单位矩阵保证位于SU(d)的一个子群内，以及概率设定，其中变换以某种概率成功。
+                </div>
+                <a href="https://arxiv.org/abs/2405.07625" class="link">https://arxiv.org/abs/2405.07625</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-15" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(15)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-15"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Quantum Programming Without the Quantum Physics</h2>
+                <div class="authors">Jun Inoue</div>
+                <div class="summary">
+                摘要：我们提出了一种量子编程范式，其中所有数据都是熟悉的经典数据，唯一的非经典元素是一个可以返回负概率结果的随机数生成器。目前，大多数量子编程语言使用由量子比特组成的量子数据类型，其行为描述依赖于大量线性代数和许多相互依存的概念和直觉，这些都需要专门学习才能理解。我们证明，该量子编程范式以更易懂、计算相关的术语解释了其核心概念和约束，通过系统地将一切归结为负概率随机生成器的存在，并尽可能避免高级物理学的提及。这使得没有深厚物理或线性代数背景的程序员也能更容易接触量子编程。 本文的大部分内容都是以此类读者为对象撰写的。作为工作载体，我们概述了一种简单的量子编程语言，表明它不仅可以表达所有量子程序，还自然地捕捉测量语义，而无需提及量子比特或坍缩。这证明该语言既能实现又具有普遍性。
+                </div>
+                <a href="https://arxiv.org/abs/2408.16234" class="link">https://arxiv.org/abs/2408.16234</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-16" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(16)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-16"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Long-time soliton dynamics via a coarse-grained space-time method</h2>
+                <div class="authors">Dung N. Pham, Zoe Zager, Wentao Fan, Hakan E. Türeci</div>
+                <div class="summary">
+                摘要：我们研究了Sine-Gordon (SG) 模型在一类扰动下的长时间动力学，这些扰动在量子场论中通过玻色化对应于描述Dirac费米子的1+1维相对论QED的巨量施温格模型。经典SG解对于理解该量子理论中的非微扰效应至关重要，但捕捉其长时间行为具有重大数值挑战。为了解决这个问题，我们使用基于Minkowski度量的双网格构造将粗化方法扩展到时空中。我们首先通过验证SG模型的一个已知变体（描述约瑟夫森传输线中的磁通量子动力学）来验证这种方法，其中存在分析和数值基准。然后，我们将该方法应用于受施温格模型启发的SG模型，并揭示了长寿命束缚态，即“施温格原子”，其中一个孤子被固定中心电荷所捕获。在某些情况下，系统表现出极限环，产生正电子类似的相反电荷孤子态，而在其他情况下，这种形成被抑制。访问此类长时间解需要在有限计算域上严格实施传出边界条件，该条件提供辐射耗散，以允许系统放松到仅存在于无限域的状态。在这里，我们提供了这种构造。我们的结果还表明，JTLs可用于模拟相对论量子场理论。这些结果展示了时空粗化方法在探索非线性场理论中非微扰结构形成方面的实用性。
+                </div>
+                <a href="https://arxiv.org/abs/2504.12286" class="link">https://arxiv.org/abs/2504.12286</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-17" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(17)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-17"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>High-fidelity entanglement and coherent multi-qubit mapping in an atom array</h2>
+                <div class="authors">Aruku Senoo, Alexander Baumgärtner, Joanna W. Lis, Gaurav M. Vaidya, Zhongda Zeng, Giuliano Giudici, Hannes Pichler, Adam M. Kaufman</div>
+                <div class="summary">
+                摘要：中性原子在光镊阵中的广泛应用对于量子信息科学至关重要，尤其是在计算、模拟和计量学领域。Ytterbium-171原子由于其多qubit特性，成为连接多个学科的理想候选者。本研究展示了在Ytterbium-171光镊阵中跨多个qubit生成和映射纠缠态，并通过创新方法实现高保真度量子门操作及错误检测。这些成果为多领域的量子信息科学提供了一种多功能架构。
+                </div>
+                <a href="https://arxiv.org/abs/2506.13632" class="link">https://arxiv.org/abs/2506.13632</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-18" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(18)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-18"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Improved energy barrier in higher-dimensional hypergraph product codes</h2>
+                <div class="authors">Guangqi Zhao</div>
+                <div class="summary">
+                摘要：单次拍摄的错误纠正优于传统方法，因为即使在存在测量错误的情况下，它只需要一次稳定器测量来解码。这种功能与编码的限制特性有关，该特性提供了能量屏障的下限。此前研究为高维超图产品（HHGP）代码建立了限制特性（Quintavalle et al. 2021 PRX Quantum），从而得到了这些代码的能量屏障下限。在这项工作中，通过分析逻辑算符的结构，我们展示了具有低密度奇偶校验（LDPC）属性的HHGP代码的改进能量屏障下限。我们的界限超过了仅通过限制得到的结果，并且与标准超图产品代码不同，这些高维变体即使底层经典代码缺乏此功能，也可以具有宏观能量屏障。具体来说，我们的分析表明，LDPC HHGP代码的能量屏障下限由底层经典代码的距离限定。如果底层经典代码具有与系统大小相关的距离但恒定的能量屏障（例如3D和4D环面码），则该界限是紧密的。
+                </div>
+                <a href="https://arxiv.org/abs/2506.19219" class="link">https://arxiv.org/abs/2506.19219</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-19" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(19)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-19"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>A New Approach to Arguments of Quantum Knowledge</h2>
+                <div class="authors">James Bartusek (1), Ruta Jawale (2), Justin Raizes (3), Kabir Tomer (2) ((1) Columbia University, (2) University of Illinois Urbana-Champaign, (3) NTT Research)</div>
+                <div class="summary">
+                摘要：我们构造了一个具有以下属性的公开可验证的非交互式零知识论证系统QMA：
+1. 透明设置。我们的协议仅需要一个均匀随机字符串（URS）设置。以前唯一的公开可验证NIZK QMA（Bartusek和Malavolta，ITCS 2022）要求一个遮蔽程序作为公共参考字符串。
+2. 可提取性。有效的QMA证人可以直接从接受证明中提取。这意味着我们获得了一个公开可验证的非交互式量子知识论证，此前只在私下可验证的环境中存在（Coladangelo，Vidick和Zhang，CRYPTO 2020）。
+我们的构造引入了一种具有“强完整性”的新ZX QMA验证器，并基于（Bartusek，Brakerski和Vaikuntanathan，STOC 2024）在QMA验证中使用的同余状态身份验证方案。我们在此过程中建立了身份验证方案的新属性。
+我们的构造的安全性依赖于后量子不可区分性混淆器的启发式使用。与依赖完整的经典oracle模型（即理想混淆）不同，我们隔离了混淆器的一个特定基于游戏的属性，这对于我们的证明足够，我们称之为回避组合猜测。
+作为额外的贡献，我们研究了一种用启发式使用哈希函数在后量子环境中替代启发式使用混淆的通用方法。特别是，我们建立了Jain，Lin，Luo和Wichs（CRYPTO 2023）的理想混淆方案在量子伪随机oracle模型（QPrO）中的安全性，该模型可以用哈希函数启发式地实例化。这使我们获得了在QPrO中针对QMA的量子知识NIZK论证，并另外允许我们将几项仅在经典oracle模型中 извест的量子密码学结果转换为QPrO中的结果。
+                </div>
+                <a href="https://arxiv.org/abs/2510.05316" class="link">https://arxiv.org/abs/2510.05316</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-20" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(20)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-20"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Accelerating Fault-Tolerant Quantum Computation with Good qLDPC Codes</h2>
+                <div class="authors">Guo Zhang, Yuanye Zhu, Ying Li</div>
+                <div class="summary">
+                摘要：我们提出了一种容错量子计算方案，该方案广泛适用于量子低密度奇偶校验（qLDPC）码。该方案在任何具有恒定编码率和距离d = Ω(n^{1/a})的[[n,k,d]] qLDPC代码下，实现了恒定的qubit开销和O(d^{a+o(1)})的时间开销。对于良好的qLDPC码，时间开销被最小化并达到O(d^{1+o(1)})。相比之下，基于校核测量和暴力分支的代码手术需要O(dw^{1+o(1)})的时间开销，其中d ≤ w ≤ n。因此，我们的方案对于所有a < 2的码在渐近上更快。这一加速是通过开发技术实现的，这些技术能够在恒定qubit开销下并行化代码手术，并利用经典局部可测试码进行高效的资源态准备。这些结果为在低开销和广泛适用性的同时，加速qLDPC码上的容错量子计算，建立了一个新的范式。
+                </div>
+                <a href="https://arxiv.org/abs/2510.19442" class="link">https://arxiv.org/abs/2510.19442</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-21" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(21)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-21"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Frequency shifts heralding ground state squeezing and entanglement of two coupled harmonic oscillators</h2>
+                <div class="authors">Safoura Mirkhalaf, Helmut Ritsch, Karol Gietka</div>
+                <div class="summary">
+                摘要：通常认为，两个线性耦合的量子谐振子，即使冷却到基态，也不会表现出超越能级量子的本质特征。我们挑战这一观点，通过展示它们的经典观测量编码了真正的量子特征来证明这点。特别是，我们证明在耦合振子中观察到的特征频率移标志着非经典关联和零温下的基态纠缠，这对应于两个未耦合模式之间的双模式挤压。从互补的角度来看，频率移和挤压这两个效应代表了相同的潜在现象，但表现在不同的模式基中。在一种描述中，它们表现为谱重规化，而在另一种描述中则表现为纠缠。因此，频率移构成了可以通过标准分光光谱法访问的纠缠见证。而虽然底层挤压无法直接测量，但它可以被利用来提高单个振子的精密频率测量中的信噪比，而无需使用挤压的量子噪声。这揭示了一条新的通过传统上视为经典的系统实现量子增强传感的途径，提供了关于如何在经典与量子边界间持续存在量子的特征的新见
+                </div>
+                <a href="https://arxiv.org/abs/2511.03687" class="link">https://arxiv.org/abs/2511.03687</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-22" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(22)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-22"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Optomechanical Cooling without Residual Heating</h2>
+                <div class="authors">Surangana Sengupta, Björn Kubala, Joachim Ankerhold, Ciprian Padurariu</div>
+                <div class="summary">
+                摘要：侧带冷却是一种标准的腔光机技术，能够实现机械运动的量子控制，但其性能最终受限于量子反作用加热。这一基本效应对可达到最小机械声子数目设定了限制，无论施加多大的冷却强度，都会建立一个有限温度下限。我们将半经典模型推广到包括被动和主动非线性的万能腔哈密顿量的光机冷却中进行了描述。具体而言，我们分析了通过约瑟夫结实现非线性驱动的最简单电路光学机械系统。我们的分析表明，这种主动非线性驱动可以消除残余加热反作用，因此与基于被动非线性的其他光机冷却方案相比具有优势。通过成功克服限制传统方案的有限温度下限，我们的方法为对机械系统实现前所未有的量子控制铺平了道路，并确立了零加热光学机械冷却在实验上的可行性。
+                </div>
+                <a href="https://arxiv.org/abs/2511.10318" class="link">https://arxiv.org/abs/2511.10318</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-23" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(23)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-23"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Exact Quantum Stochastic Differential Equations for Reverse Diffusion</h2>
+                <div class="authors">Einar Gabbassov</div>
+                <div class="summary">
+                摘要：集合平均的开放量子系统动力学通常是不可逆的。我们展示了这种不可逆性不必在个别监控的量子轨迹水平上成立。我们的主要结果是反向扩散的量子随机微分方程，以及对应的随机主方程。这些方程描述了连续监测的Pauli信道（包括时间依赖的去极化噪声）的确切和近似随机反过程。确切的SDEs可以在不需要变分技术的情况下在线实现。重要的是，反向SDEs及其相应的过程是其正向对应过程的一般化。人们可以从其反向过程恢复到前进过程，这意味着反向过程经历与前进过程相同的去相干和噪声效应。这为耐噪声量子门、通过前向-反向循环的量子状态测图像和基于反向扩散的潜在量子纠错校正方法建立了一个分析框架。
+                </div>
+                <a href="https://arxiv.org/abs/2511.15919" class="link">https://arxiv.org/abs/2511.15919</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-24" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(24)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-24"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Shake before use: universal enhancement of quantum thermometry by unitary driving</h2>
+                <div class="authors">Emanuele Tumbiolo, Lorenzo Maccone, Chiara Macchiavello, Matteo G.A. Paris, Giacomo Guarnieri</div>
+                <div class="summary">
+                摘要：本文旨在通过在量子领域中确定温度来实现最终的精度。标准的平衡方法受限于静态能量波动给出的量子费舍信息，其灵敏度仅适用于固定的温度窗口之外。此时，近年来提出了非平衡策略，但其优点通常是模型依赖或针对特定目的而设计的。本文建立了一般性的、与模型无关的结果，表明任何依赖于温度的单元量驱动应用于热化探测器都会增加其相对于平衡值的量子费舍信息。通过统计可区分度流的正半定信息核，信息增益可以通过解析式表示。我们对一个驱动物体自旋-1/2温度计进行了基准测试，并进一步展示了谐振调制显著恢复随时间二次方缩放的费舍信息，并允许将灵敏度峰移到任意温度范围内。我们的研究结果表明外部单元控制是精密测量技术的一种通用资源，并为未来的量子感知实现铺平了道路。
+                </div>
+                <a href="https://arxiv.org/abs/2511.19631" class="link">https://arxiv.org/abs/2511.19631</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-25" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(25)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-25"></ul>
+                </div>
+                </div>
+                
+                <div class="literature-item" style="background-color: #fff;">
+                <h2>Probabilistic imaginary-time evolution in state-vector-based and shot-based simulations and on quantum devices</h2>
+                <div class="authors">Satoshi Ejima, Kazuhiro Seki, Benedikt Fauseweh, Seiji Yunoki</div>
+                <div class="summary">
+                摘要：虚时间演化是一种在经典计算机上的张量网络和量子蒙特卡洛算法中的重要技术，最近已被改编用于量子计算。在这项研究中，我们专注于概率性虚时间演化（PITE）算法，并推导了其在基于状态向量的模拟中的公式，其中直接使用量子状态向量来计算观测值，而不产生统计错误。我们将结果与基于射击的模拟进行比较，后者通过反复投影测量估计观测值。在应用PITE算法于Heisenberg链时，我们研究了收敛的最佳初始条件。进一步，我们在跨场Ising模型上使用了一流的离子阱量子设备来展示该方法。最后，我们探讨了该框架中的误差缓解潜力，并强调了近期数字量子模拟的实际考虑因素。
+                </div>
+                <a href="https://arxiv.org/abs/2504.04958" class="link">https://arxiv.org/abs/2504.04958</a>
+                <div class="comment-section">
+                    <h3>评论</h3>
+                    <input type="text" class="comment-input" id="comment-input-26" placeholder="输入评论">
+                    <button class="comment-button" onclick="addComment(26)">提交评论</button>
+                    <ul class="comment-list" id="comment-list-26"></ul>
+                </div>
+                </div>
+                
+        <script>
+        function addComment(paperIndex) {
+            const commentInput = document.getElementById(`comment-input-${paperIndex}`);
+            const commentText = commentInput.value;
+            if (commentText) {
+                const commentList = document.getElementById(`comment-list-${paperIndex}`);
+                const now = new Date();
+                const timestamp = now.toLocaleString();
+                const newComment = document.createElement('li');
+                newComment.textContent = `${timestamp}: ${commentText}`;
+                commentList.appendChild(newComment);
+                // 保存评论到本地存储
+                let comments = JSON.parse(localStorage.getItem(`comments-${paperIndex}`)) || [];
+                comments.push(`${timestamp}: ${commentText}`);
+                localStorage.setItem(`comments-${paperIndex}`, JSON.stringify(comments));
+                commentInput.value = '';
+            }
+        }
+        
+        // 页面加载时显示本地存储的评论
+        window.onload = function () {
+            const comments0 = JSON.parse(localStorage.getItem(`comments-0`)) || []; const commentList0 = document.getElementById(`comment-list-0`); comments0.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList0.appendChild(newComment); });const comments1 = JSON.parse(localStorage.getItem(`comments-1`)) || []; const commentList1 = document.getElementById(`comment-list-1`); comments1.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList1.appendChild(newComment); });const comments2 = JSON.parse(localStorage.getItem(`comments-2`)) || []; const commentList2 = document.getElementById(`comment-list-2`); comments2.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList2.appendChild(newComment); });const comments3 = JSON.parse(localStorage.getItem(`comments-3`)) || []; const commentList3 = document.getElementById(`comment-list-3`); comments3.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList3.appendChild(newComment); });const comments4 = JSON.parse(localStorage.getItem(`comments-4`)) || []; const commentList4 = document.getElementById(`comment-list-4`); comments4.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList4.appendChild(newComment); });const comments5 = JSON.parse(localStorage.getItem(`comments-5`)) || []; const commentList5 = document.getElementById(`comment-list-5`); comments5.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList5.appendChild(newComment); });const comments6 = JSON.parse(localStorage.getItem(`comments-6`)) || []; const commentList6 = document.getElementById(`comment-list-6`); comments6.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList6.appendChild(newComment); });const comments7 = JSON.parse(localStorage.getItem(`comments-7`)) || []; const commentList7 = document.getElementById(`comment-list-7`); comments7.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList7.appendChild(newComment); });const comments8 = JSON.parse(localStorage.getItem(`comments-8`)) || []; const commentList8 = document.getElementById(`comment-list-8`); comments8.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList8.appendChild(newComment); });const comments9 = JSON.parse(localStorage.getItem(`comments-9`)) || []; const commentList9 = document.getElementById(`comment-list-9`); comments9.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList9.appendChild(newComment); });const comments10 = JSON.parse(localStorage.getItem(`comments-10`)) || []; const commentList10 = document.getElementById(`comment-list-10`); comments10.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList10.appendChild(newComment); });const comments11 = JSON.parse(localStorage.getItem(`comments-11`)) || []; const commentList11 = document.getElementById(`comment-list-11`); comments11.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList11.appendChild(newComment); });const comments12 = JSON.parse(localStorage.getItem(`comments-12`)) || []; const commentList12 = document.getElementById(`comment-list-12`); comments12.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList12.appendChild(newComment); });const comments13 = JSON.parse(localStorage.getItem(`comments-13`)) || []; const commentList13 = document.getElementById(`comment-list-13`); comments13.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList13.appendChild(newComment); });const comments14 = JSON.parse(localStorage.getItem(`comments-14`)) || []; const commentList14 = document.getElementById(`comment-list-14`); comments14.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList14.appendChild(newComment); });const comments15 = JSON.parse(localStorage.getItem(`comments-15`)) || []; const commentList15 = document.getElementById(`comment-list-15`); comments15.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList15.appendChild(newComment); });const comments16 = JSON.parse(localStorage.getItem(`comments-16`)) || []; const commentList16 = document.getElementById(`comment-list-16`); comments16.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList16.appendChild(newComment); });const comments17 = JSON.parse(localStorage.getItem(`comments-17`)) || []; const commentList17 = document.getElementById(`comment-list-17`); comments17.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList17.appendChild(newComment); });const comments18 = JSON.parse(localStorage.getItem(`comments-18`)) || []; const commentList18 = document.getElementById(`comment-list-18`); comments18.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList18.appendChild(newComment); });const comments19 = JSON.parse(localStorage.getItem(`comments-19`)) || []; const commentList19 = document.getElementById(`comment-list-19`); comments19.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList19.appendChild(newComment); });const comments20 = JSON.parse(localStorage.getItem(`comments-20`)) || []; const commentList20 = document.getElementById(`comment-list-20`); comments20.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList20.appendChild(newComment); });const comments21 = JSON.parse(localStorage.getItem(`comments-21`)) || []; const commentList21 = document.getElementById(`comment-list-21`); comments21.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList21.appendChild(newComment); });const comments22 = JSON.parse(localStorage.getItem(`comments-22`)) || []; const commentList22 = document.getElementById(`comment-list-22`); comments22.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList22.appendChild(newComment); });const comments23 = JSON.parse(localStorage.getItem(`comments-23`)) || []; const commentList23 = document.getElementById(`comment-list-23`); comments23.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList23.appendChild(newComment); });const comments24 = JSON.parse(localStorage.getItem(`comments-24`)) || []; const commentList24 = document.getElementById(`comment-list-24`); comments24.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList24.appendChild(newComment); });const comments25 = JSON.parse(localStorage.getItem(`comments-25`)) || []; const commentList25 = document.getElementById(`comment-list-25`); comments25.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList25.appendChild(newComment); });const comments26 = JSON.parse(localStorage.getItem(`comments-26`)) || []; const commentList26 = document.getElementById(`comment-list-26`); comments26.forEach(comment => { const newComment = document.createElement('li'); newComment.textContent = comment; commentList26.appendChild(newComment); });
+        };
+        </script>
+        </body>
+        </html>
+        
