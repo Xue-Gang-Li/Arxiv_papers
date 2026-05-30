@@ -20,7 +20,7 @@ Repository secret required:
 
 GitHub Pages settings:
 
-- Source: GitHub Actions
+- Source: deploy from the `main` branch root, matching the existing repository pages setup.
 
 The workflow runs at 04:00 UTC, Monday-Friday, which is 12:00 Asia/Shanghai.
 
