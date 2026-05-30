@@ -7,7 +7,6 @@ const SITE_URL = process.env.SITE_URL || "https://xue-gang-li.github.io/Arxiv_pa
 const FEISHU_WEBHOOK = process.env.FEISHU_WEBHOOK || "";
 const DRY_RUN = process.env.DRY_RUN === "1";
 const ROOT = process.cwd();
-const PUBLIC_DIR = path.join(ROOT, "public");
 const DATA_DIR = path.join(ROOT, "data");
 const C = {
   superconducting: "\u8d85\u5bfc\u91cf\u5b50\u8ba1\u7b97",
@@ -306,20 +305,19 @@ function renderHtml({ date, selected, total }) {
 }
 
 async function writeOutputs(date, selected, total) {
-  await fs.mkdir(PUBLIC_DIR, { recursive: true });
   await fs.mkdir(DATA_DIR, { recursive: true });
   const payload = { date, total, selected };
   const dailyFile = `Arxiv_papers_${date}.html`;
   await fs.writeFile(path.join(DATA_DIR, `${date}.json`), JSON.stringify(payload, null, 2), "utf8");
-  await fs.writeFile(path.join(PUBLIC_DIR, dailyFile), renderHtml(payload), "utf8");
-  await fs.writeFile(path.join(PUBLIC_DIR, "index.html"), await renderIndex(date, selected, total), "utf8");
+  await fs.writeFile(path.join(ROOT, dailyFile), renderHtml(payload), "utf8");
+  await fs.writeFile(path.join(ROOT, "index.html"), await renderIndex(date, selected, total), "utf8");
   return dailyFile;
 }
 
 async function renderIndex(date, selected, total) {
   let files = [];
   try {
-    files = (await fs.readdir(PUBLIC_DIR))
+    files = (await fs.readdir(ROOT))
       .filter((file) => /^Arxiv_papers_\d{4}-\d{2}-\d{2}\.html$/.test(file))
       .sort()
       .reverse();
