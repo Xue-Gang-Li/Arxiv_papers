@@ -1,0 +1,13 @@
+{
+  "name": "arxiv-papers-digest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "digest": "node scripts/digest.mjs",
+    "digest:dry": "DRY_RUN=1 node scripts/digest.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
