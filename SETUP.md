@@ -21,8 +21,8 @@ Upload all files in this folder to the repository root:
 - `scripts/digest.mjs`
 - `package.json`
 - `README.md`
-- `public/index.html`
-- `public/Arxiv_papers_YYYY-MM-DD.html`
+- `index.html`
+- `Arxiv_papers_YYYY-MM-DD.html`
 - `data/`
 
 ## 3. Add the Feishu webhook as a repository secret
@@ -44,9 +44,9 @@ Go to:
 
 `Settings` -> `Pages`
 
-Set:
+Keep the existing branch-based setup:
 
-- Source: `GitHub Actions`
+- Source: deploy from the `main` branch root
 
 ## 5. Test once
 
