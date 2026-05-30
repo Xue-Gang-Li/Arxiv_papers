@@ -1,0 +1,56 @@
+name: Daily arXiv Quantum Digest
+
+on:
+  schedule:
+    # 12:00 Asia/Shanghai, Monday-Friday. GitHub Actions schedules use UTC.
+    - cron: "0 4 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate digest
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          SITE_URL: https://xue-gang-li.github.io/Arxiv_papers/
+        run: node scripts/digest.mjs
+
+      - name: Commit generated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update daily arXiv digest"
+          file_pattern: "public/*.html data/*.json"
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
